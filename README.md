@@ -43,7 +43,7 @@ http://www.library.ucla.edu/destination/clicc-laptop-ipad-lending-arts-library h
 Let me know if you need to borrow a laptop, and in class activities will take into account the time for checkout / travel between library and class.
 ______
 
-#### Learning Outcomes for this Course
+## Learning Outcomes for this Course
 
 * You will venture into the daunting world of High Performance Computing and be able navigate and be successful at running programs on UCLA’s Hoffman2 Cluster
 You will be able to navigate Hoffman2 using only the command line in the UNIX shell.
