@@ -1,6 +1,5 @@
-
 # __Practical Computing for Evolutionary Biologists and Ecologists Syllabus; EEB C177/C234__
-Course Basic Information |  Logistics  
+Course Basic Information |  Course Logistics  
 --- | ---
 __Spring 2019__ <br> __Letter grading__ <br>  __Units:__ 4 <br> __Prerequisite:__ Life Sciences 1 or 7B. | __Lecture:__ MW 8-9:15; Physics and Astronomy Building Room 2748 <br>  __Computer Lab:__ T or R 1-2:50; WGYoung 4067 <br> __Course Website:__ <br> __Github classroom:__ <br> https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
 
@@ -34,10 +33,9 @@ https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
 __Text (BSS)__: Bash_Shell_Scripting
 https://en.wikibooks.org/wiki/Bash_Shell_Scripting
 
-_Additional freely accessible texts will be added as the quarter progresses._
+**_Additional_** _freely accessible texts will be added as the quarter progresses._
 
-__Laptops are required for class time!__
-
+__Laptops are required for class time!__ <br>
 If you do not have a laptop you can rent one from the Arts library or the Geology library starting at 8am.    
 http://www.library.ucla.edu/destination/clicc-laptop-ipad-lending-arts-library http://www.library.ucla.edu/destination/clicc-laptop-lending-selgeology.  
 Let me know if you need to borrow a laptop, and in class activities will take into account the time for checkout / travel between library and class.
@@ -45,22 +43,22 @@ ______
 
 ## Learning Outcomes for this Course
 
-* You will venture into the daunting world of High Performance Computing and be able navigate and be successful at running programs on UCLA’s Hoffman2 Cluster
+* __You__ will venture into the daunting world of High Performance Computing and be able navigate and be successful at running programs on UCLA’s Hoffman2 Cluster
 You will be able to navigate Hoffman2 using only the command line in the UNIX shell.
-* You will understand the general syntax of programming and then be able to carry out the following tasks in three different programming languages: Bash, Python, and R.
+* __You__ will understand the general syntax of programming and then be able to carry out the following tasks in three different programming languages: Bash, Python, and R.
 Generate and manipulate text files and directories
 Use regular expressions
 Create for loops and conditional statements
 Call and make functions
 Call software/packages/modules within programs
-* You will use R and Python to analyze data.
-* You will learn how to generate a GitHub repository and a then learn to modify repositories from the command line, using branch, fork, merge, push etc.
-* You will produce a CV using markdown and a personal website using github.
-* You will collaborate with researchers and other students to design a publically available software package. For this project, you will justify why this program is needed to fulfill a research goal, you will diagram the steps required for the program to be successful, evaluate the and choose the appropriate language(s) available to complete tasks, produce scripts to run the tasks, create a dummy dataset and vignette to allow others to quickly test the functionality of your data.
-* You will evaluate the work of other student and provide constructive feedback during group activities in lecture and discussion.
-* You will learn to document scripts so that you and others will be able to run/troubleshoot/modify/recreate your programs in the future.
-* You will realize that you are a resourceful and creative human being.  Programming is something you get good at with a lot of practice, patience, googling, and effort.  
-* You will learn to be successful by using all your available resources.  
+* __You__ will use R and Python to analyze data.
+* __You__ will learn how to generate a GitHub repository and a then learn to modify repositories from the command line, using branch, fork, merge, push etc.
+* __You__ will produce a CV using markdown and a personal website using GitHub.
+* __You__ will collaborate with researchers and other students to design a publicly available software package. For this project, you will justify why this program is needed to fulfill a research goal, you will diagram the steps required for the program to be successful, evaluate the and choose the appropriate language(s) available to complete tasks, produce scripts to run the tasks, create a dummy dataset and vignette to allow others to quickly test the functionality of your data.
+* __You__ will evaluate the work of other student and provide constructive feedback during group activities in lecture and discussion.
+* __You__ will learn to document scripts so that you and others will be able to run/troubleshoot/modify/recreate your programs in the future.
+* __You__ will realize that you are a resourceful and creative human being.  Programming is something you get good at with a lot of practice, patience, googling, and effort.  
+* __You__ will learn to be successful by using all your available resources.  
 ______
 
 
@@ -72,7 +70,7 @@ ______
 
 ## Helping You Succeed & Creating an Inclusive Classroom Community
 
-Daniel and I will be available to help you during class and during regular office hours.  __ I will answer emails and other communications between the hours of 7 am – 7pm on weekdays.__  It is possible that I will get back to you weekends and evenings, but you should not expect a response during that time.
+Daniel and I will be available to help you during class and during regular office hours.  __I will answer emails and other communications between the hours of 7 am – 7pm on weekdays.__  It is possible that I will get back to you weekends and evenings, but you should not expect a response during that time.
 
 Daniel’s info…..
 
@@ -90,17 +88,18 @@ ______
 
 
 ## How Your Learning Will Be Assessed (Grading Policy)
-Your grade will be assessed as follows:
+__Your grade will be assessed as follows:__
 
-Activity | Percent Grade
+__Activity__ | __Percent Grade__
 --- | ---
 In class participation |	20%
 Homework	|		10%
 Lab assignments / participation	|		20%
 Final Project	|		50%
-Total | 100%
+__Total__ | __100%__
 
-_Why I do not grade on a curve:_ In recent years, research into higher education assessment practices have shown that grading on a curve can create unnecessarily competitive environments for students and result in outcomes that disadvantage some groups of students over others. This is true in data collected and analyzed for our students at UCLA as well. For this reason, I do not grade on a curve. Your grade is therefore not based on how you did in comparison to your peers, but instead how successful you are at evidencing that you have mastered the intended learning goals for that specific assessment. However, if I do find that particular assessment questions I gave an assignment or exam were unreasonably challenging, unclear, or unfair for any reason I will  provide additional credit as appropriate. If you ever feel that an assignment or specific question is unfair or confusing please come and speak with me or your TA (ideally before it is due or during the assessment, but afterwards is okay also) so that we can address this concern as soon as possible. I am committed to making sure the assessment of your learning is comprehensive, fair, and incorporates best practices from education research on assessment design and inclusive practices.
+__Why I do not grade on a curve:__ <br>
+In recent years, research into higher education assessment practices have shown that grading on a curve can create unnecessarily competitive environments for students and result in outcomes that disadvantage some groups of students over others. This is true in data collected and analyzed for our students at UCLA as well. For this reason, I do not grade on a curve. Your grade is therefore not based on how you did in comparison to your peers, but instead how successful you are at evidencing that you have mastered the intended learning goals for that specific assessment. However, if I do find that particular assessment questions I gave an assignment or exam were unreasonably challenging, unclear, or unfair for any reason I will  provide additional credit as appropriate. If you ever feel that an assignment or specific question is unfair or confusing please come and speak with me or your TA (ideally before it is due or during the assessment, but afterwards is okay also) so that we can address this concern as soon as possible. I am committed to making sure the assessment of your learning is comprehensive, fair, and incorporates best practices from education research on assessment design and inclusive practices.
 
 __Grading Scale:__
 
@@ -139,7 +138,7 @@ __Final Project:__
 
 The final project for this course will require you to produce software that manipulates and analyzes data.  This software must have a practical application for a current research project. If you do not currently have a research project will be paired with a researcher that has a computational need that is appropriate for the scope of the course and student group size.   Student group size will depend on the size of the program required for the research project and whether you are an undergraduate or a graduate student.
 
-Your final project will include and be evaluated based on the following criteria.
+__Your final project will include and be evaluated based on the following criteria.__
 * Cleaver or insightful program name.  Everyone loves a bad acronym.  
 * Name and contact info for project members.
 * Your Readme file.
