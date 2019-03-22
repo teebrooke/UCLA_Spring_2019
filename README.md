@@ -1,32 +1,19 @@
 
 # __Practical Computing for Evolutionary Biologists and Ecologists Syllabus; EEB C177/C234__
-## Spring 2019
-### Letter grading
-### Units: 4
-### Prerequisite: Life Sciences 1 or 7B.
-______
+Course Basic_Information |  Logistics  
+--- | ---
+__Spring 2019__ <br> __Letter grading__ <br>  __Units:__ 4 <br> __Prerequisite:__ Life Sciences 1 or 7B. | __Lecture:__ MW 8-9:15; Physics and Astronomy Building Room 2748 <br>  __Computer Lab:__ T or R 1-2:50; WGYoung 4067 <br> __Course Website:__ <br> __Github classroom:__ <br> https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
 
-#### Lecture MW 8-9:15; Physics and Astronomy Building Room 2748
-#### Computer Lab T or R 1-2:50; WGYoung 4067
-#### Course Website
-#### Github classroom
-https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
+____
+#### Instructor: Emily Curd <br>
+eecurd@g.ucla.edu<br>
+__Office Hours:__ MW 9:30-10:30 Music School Café
+<br> The best way to contact me is by email or through the course GitHub.
 
-#### Instructor
-###### Emily Curd
-eecurd@g.ucla.edu
-
-Office Hours: MW 9:30-10:30 Music School Café
-
-The best way to contact me is by email or through the course GitHub.
-
-#### Teaching Assistant
-###### Daniel Chavez
-dechavezv@ucla.edu
-
-Office Hours:
-
-The best way to contact me is...
+#### Teaching Assistant: Daniel Chavez <br>
+dechavezv@ucla.edu<br>
+__Office Hours:__
+<br>The best way to contact me is...
 
 ______
 
