@@ -1,16 +1,16 @@
 
 # __Practical Computing for Evolutionary Biologists and Ecologists Syllabus; EEB C177/C234__
-Course Basic_Information |  Logistics  
+Course Basic Information |  Logistics  
 --- | ---
 __Spring 2019__ <br> __Letter grading__ <br>  __Units:__ 4 <br> __Prerequisite:__ Life Sciences 1 or 7B. | __Lecture:__ MW 8-9:15; Physics and Astronomy Building Room 2748 <br>  __Computer Lab:__ T or R 1-2:50; WGYoung 4067 <br> __Course Website:__ <br> __Github classroom:__ <br> https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
 
 ____
-#### Instructor: Emily Curd <br>
+## Instructor: Emily Curd <br>
 eecurd@g.ucla.edu<br>
 __Office Hours:__ MW 9:30-10:30 Music School Café
 <br> The best way to contact me is by email or through the course GitHub.
 
-#### Teaching Assistant: Daniel Chavez <br>
+## Teaching Assistant: Daniel Chavez <br>
 dechavezv@ucla.edu<br>
 __Office Hours:__
 <br>The best way to contact me is...
@@ -18,7 +18,7 @@ __Office Hours:__
 ______
 
 
-#### Course Description
+## Course Description
 Do you have a lot of Data? Do you think you will someday generate a lot of Data? Do you want to understand programing jokes? If so this is the class for you. It is becoming easier to generate large volumes of biological data, however many biologists lack the basic skill sets to process and analyze this data. It can be daunting to figure out what to do with big data sets on your own.  
 
 In this class, you will be introduced to fundamental skills needed for manipulation, analysis, and visualization of large data sets. You will learn how to use UNIX and learn the basics of programming and scripting in Bash (Unix shell), Python, R. This will include text file and directory manipulation, the use of regular expressions, the ability to create for loops and conditional statements, the use of functions, the ability to call other programs within programs, and much, much more. You will also learn how to run all your scripts on UCLA’s Hoffman2 Cluster. If that is not enough, you will also learn Markdown / R Markdown for document preparation. Finally, you will learn about version control using git and GitHub and generate a GitHub repository of your very own.
@@ -26,7 +26,7 @@ In this class, you will be introduced to fundamental skills needed for manipulat
 ______
 
 
-#### Course Materials
+## Course Materials
 __Text (ISCB)__: Introduction to Scientific Computing for Biologists
 Author: Stefano Allesina; downloadable here:
 https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
@@ -64,13 +64,13 @@ Call software/packages/modules within programs
 ______
 
 
-#### How to Succeed in this Course (Expectations for Students)
+## How to Succeed in This Course (Expectations for Students)
 If you want to succeed in this class, you must put in the time.  Programming is learned through practice and trial and error.  Programming also be frustrating, maddening, exhilarating, and at the end of a successful script or project you may feel immense satisfaction. Students in this class will succeed by finishing assignments, collaborating with other students, talking with Daniel and me when you need help, and generally by learning to google your way to answers.  There are many more ways accomplish a task than we will be able to teach you in this class.  Be open to exploring the other options available for completing a task.  It is likely that you will exceed our knowledge on a topic while working on your final project.  We will reward your creative thinking and resourcefulness with good grades.  Your reward for willingness to work hard, to be creative and resourceful will be a skillset that you will be able to use thought your career.
 
 ______
 
 
-#### Helping You Succeed & Creating an Inclusive Classroom Community
+## Helping You Succeed & Creating an Inclusive Classroom Community
 
 Daniel and I will be available to help you during class and during regular office hours.  __ I will answer emails and other communications between the hours of 7 am – 7pm on weekdays.__  It is possible that I will get back to you weekends and evenings, but you should not expect a response during that time.
 
@@ -89,7 +89,7 @@ UCLA’s Office for Equity, Diversity, and Inclusion provides resources, events,
 ______
 
 
-#### How Your Learning Will Be Assessed (Grading Policy)
+## How Your Learning Will Be Assessed (Grading Policy)
 Your grade will be assessed as follows:
 
 Activity | Percent Grade
@@ -121,7 +121,7 @@ F| 0%-59%
 ______
 
 
-#### Information about Our Course Assignments
+## Information About Our Course Assignments
 
 __In class participation:__
 
@@ -152,7 +152,7 @@ Your final project will include and be evaluated based on the following criteria
 ______
 
 
-#### Course Schedule
+## Course Schedule
 
 This is a tentative schedule and subject to change, with schedule adjustments posted on CCLE announcements and the Course Website.
 
@@ -195,7 +195,7 @@ __F June 14__ | __Final Project Submissions__ | TBD | TBD
 ______
 
 
-#### Student Resources for Support and Learning
+## Student Resources for Support and Learning
 
 __Providing feedback to me and to your TAs:__
 
@@ -216,7 +216,7 @@ Students needing academic accommodations based on a disability should contact th
 ______
 
 
-#### Campus Resources and Support Services around UCLA Available to Students:
+## Campus Resources and Support Services around UCLA Available to Students:
 
 __Academic Achievement Program:__
 
@@ -285,7 +285,7 @@ UCLA ONE is UCLA’s interactive, online gateway for mentorship, professional ne
 ______
 
 
-#### Additional Course Policies and UCLA Policies
+## Additional Course Policies and UCLA Policies
 
 __Message about Academic Integrity to all UCLA Students from UCLA Dean of Students:__
 
