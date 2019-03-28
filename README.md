@@ -1,23 +1,37 @@
+
 # __Practical Computing for Evolutionary Biologists and Ecologists Syllabus; EEB C177/C234__
-Course Basic Information |  Course Logistics  
---- | ---
-__Spring 2019__ <br> __Letter grading__ <br>  __Units:__ 4 <br> __Prerequisite:__ Life Sciences 1 or 7B. | __Lecture:__ MW 8-9:15; Physics and Astronomy Building Room 2748 <br>  __Computer Lab:__ T or R 1-2:50; WGYoung 4067 <br> __Course Website:__ <br> __Github classroom:__ <br> https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
+## Spring 2019
+### Letter grading
+### Units: 4
+### Prerequisite: Life Sciences 1 or 7B.
+______
 
-____
-## Instructor: Emily Curd <br>
-eecurd@g.ucla.edu<br>
-__Office Hours:__ MW 9:30-10:30 Music School Café
-<br> The best way to contact me is by email or through the course GitHub.
+#### Lecture MW 8-9:15; Physics and Astronomy Building Room 2748
+#### Computer Lab T or R 1-2:50; WGYoung 4067
+#### Course Website
+#### Github classroom
+https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
 
-## Teaching Assistant: Daniel Chavez <br>
-dechavezv@ucla.edu<br>
-__Office Hours:__
-<br>The best way to contact me is...
+#### Instructor
+###### Emily Curd
+eecurd@g.ucla.edu
+
+Office Hours: MW 9:30-10:30 Music School Café
+
+The best way to contact me is by email or through the course GitHub.
+
+#### Teaching Assistant
+###### Daniel Chavez
+dechavezv@ucla.edu
+
+Office Hours: MW 4-5 4th Floor Terasaki Life Science Building Common Area
+
+The best way to contact me is via email.
 
 ______
 
 
-## Course Description
+#### Course Description
 Do you have a lot of Data? Do you think you will someday generate a lot of Data? Do you want to understand programing jokes? If so this is the class for you. It is becoming easier to generate large volumes of biological data, however many biologists lack the basic skill sets to process and analyze this data. It can be daunting to figure out what to do with big data sets on your own.  
 
 In this class, you will be introduced to fundamental skills needed for manipulation, analysis, and visualization of large data sets. You will learn how to use UNIX and learn the basics of programming and scripting in Bash (Unix shell), Python, R. This will include text file and directory manipulation, the use of regular expressions, the ability to create for loops and conditional statements, the use of functions, the ability to call other programs within programs, and much, much more. You will also learn how to run all your scripts on UCLA’s Hoffman2 Cluster. If that is not enough, you will also learn Markdown / R Markdown for document preparation. Finally, you will learn about version control using git and GitHub and generate a GitHub repository of your very own.
@@ -25,7 +39,7 @@ In this class, you will be introduced to fundamental skills needed for manipulat
 ______
 
 
-## Course Materials
+#### Course Materials
 __Text (ISCB)__: Introduction to Scientific Computing for Biologists
 Author: Stefano Allesina; downloadable here:
 https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
@@ -33,46 +47,46 @@ https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
 __Text (BSS)__: Bash_Shell_Scripting
 https://en.wikibooks.org/wiki/Bash_Shell_Scripting
 
-**_Additional_** _freely accessible texts will be added as the quarter progresses._
+_Additional freely accessible texts will be added as the quarter progresses._
 
-__Laptops are required for class time!__ <br>
+__Laptops are required for class time!__
+
 If you do not have a laptop you can rent one from the Arts library or the Geology library starting at 8am.    
 http://www.library.ucla.edu/destination/clicc-laptop-ipad-lending-arts-library http://www.library.ucla.edu/destination/clicc-laptop-lending-selgeology.  
 Let me know if you need to borrow a laptop, and in class activities will take into account the time for checkout / travel between library and class.
 ______
 
-## Learning Outcomes for this Course
+#### Learning Outcomes for this Course
 
-* __You__ will venture into the daunting world of High Performance Computing and be able navigate and be successful at running programs on UCLA’s Hoffman2 Cluster
+* You will venture into the daunting world of High Performance Computing and be able navigate and be successful at running programs on UCLA’s Hoffman2 Cluster
 You will be able to navigate Hoffman2 using only the command line in the UNIX shell.
-* __You__ will understand the general syntax of programming and then be able to carry out the following tasks in three different programming languages: Bash, Python, and R.
+* You will understand the general syntax of programming and then be able to carry out the following tasks in three different programming languages: Bash, Python, and R.
 Generate and manipulate text files and directories
 Use regular expressions
 Create for loops and conditional statements
 Call and make functions
 Call software/packages/modules within programs
-* __You__ will use R and Python to analyze data.
-* __You__ will learn how to generate a GitHub repository and a then learn to modify repositories from the command line, using branch, fork, merge, push etc.
-* __You__ will produce a CV using markdown and a personal website using GitHub.
-* __You__ will collaborate with researchers and other students to design a publicly available software package. For this project, you will justify why this program is needed to fulfill a research goal, you will diagram the steps required for the program to be successful, evaluate the and choose the appropriate language(s) available to complete tasks, produce scripts to run the tasks, create a dummy dataset and vignette to allow others to quickly test the functionality of your data.
-* __You__ will evaluate the work of other student and provide constructive feedback during group activities in lecture and discussion.
-* __You__ will learn to document scripts so that you and others will be able to run/troubleshoot/modify/recreate your programs in the future.
-* __You__ will realize that you are a resourceful and creative human being.  Programming is something you get good at with a lot of practice, patience, googling, and effort.  
-* __You__ will learn to be successful by using all your available resources.  
+* You will use R and Python to analyze data.
+* You will learn how to generate a GitHub repository and a then learn to modify repositories from the command line, using branch, fork, merge, push etc.
+* You will produce a CV using markdown and a personal website using github.
+* You will collaborate with researchers and other students to design a publically available software package. For this project, you will justify why this program is needed to fulfill a research goal, you will diagram the steps required for the program to be successful, evaluate the and choose the appropriate language(s) available to complete tasks, produce scripts to run the tasks, create a dummy dataset and vignette to allow others to quickly test the functionality of your data.
+* You will evaluate the work of other student and provide constructive feedback during group activities in lecture and discussion.
+* You will learn to document scripts so that you and others will be able to run/troubleshoot/modify/recreate your programs in the future.
+* You will realize that you are a resourceful and creative human being.  Programming is something you get good at with a lot of practice, patience, googling, and effort.  
+* You will learn to be successful by using all your available resources.  
 ______
 
 
-## How to Succeed in This Course (Expectations for Students)
+#### How to Succeed in this Course (Expectations for Students)
 If you want to succeed in this class, you must put in the time.  Programming is learned through practice and trial and error.  Programming also be frustrating, maddening, exhilarating, and at the end of a successful script or project you may feel immense satisfaction. Students in this class will succeed by finishing assignments, collaborating with other students, talking with Daniel and me when you need help, and generally by learning to google your way to answers.  There are many more ways accomplish a task than we will be able to teach you in this class.  Be open to exploring the other options available for completing a task.  It is likely that you will exceed our knowledge on a topic while working on your final project.  We will reward your creative thinking and resourcefulness with good grades.  Your reward for willingness to work hard, to be creative and resourceful will be a skillset that you will be able to use thought your career.
 
 ______
 
 
-## Helping You Succeed & Creating an Inclusive Classroom Community
+#### Helping You Succeed & Creating an Inclusive Classroom Community
 
-Daniel and I will be available to help you during class and during regular office hours.  __I will answer emails and other communications between the hours of 7 am – 7pm on weekdays.__  It is possible that I will get back to you weekends and evenings, but you should not expect a response during that time.
+Daniel and I will be available to help you during class and during regular office hours.  __ We will answer emails and other communications between the hours of 7 am – 7pm on weekdays.__  It is possible that we will get back to you weekends and evenings, but you should not expect a response during that time.
 
-Daniel’s info…..
 
 Students should also post questions to the group via the course GitHub.  Chances are that if you are having a problem, someone else may also have had the same problem.  Feel free to help each other succeed in this class!
 
@@ -87,19 +101,18 @@ UCLA’s Office for Equity, Diversity, and Inclusion provides resources, events,
 ______
 
 
-## How Your Learning Will Be Assessed (Grading Policy)
-__Your grade will be assessed as follows:__
+#### How Your Learning Will Be Assessed (Grading Policy)
+Your grade will be assessed as follows:
 
-__Activity__ | __Percent Grade__
+Activity | Percent Grade
 --- | ---
 In class participation |	20%
 Homework	|		10%
 Lab assignments / participation	|		20%
 Final Project	|		50%
-__Total__ | __100%__
+Total | 100%
 
-__Why I do not grade on a curve:__ <br>
-In recent years, research into higher education assessment practices have shown that grading on a curve can create unnecessarily competitive environments for students and result in outcomes that disadvantage some groups of students over others. This is true in data collected and analyzed for our students at UCLA as well. For this reason, I do not grade on a curve. Your grade is therefore not based on how you did in comparison to your peers, but instead how successful you are at evidencing that you have mastered the intended learning goals for that specific assessment. However, if I do find that particular assessment questions I gave an assignment or exam were unreasonably challenging, unclear, or unfair for any reason I will  provide additional credit as appropriate. If you ever feel that an assignment or specific question is unfair or confusing please come and speak with me or your TA (ideally before it is due or during the assessment, but afterwards is okay also) so that we can address this concern as soon as possible. I am committed to making sure the assessment of your learning is comprehensive, fair, and incorporates best practices from education research on assessment design and inclusive practices.
+_Why I do not grade on a curve:_ In recent years, research into higher education assessment practices have shown that grading on a curve can create unnecessarily competitive environments for students and result in outcomes that disadvantage some groups of students over others. This is true in data collected and analyzed for our students at UCLA as well. For this reason, I do not grade on a curve. Your grade is therefore not based on how you did in comparison to your peers, but instead how successful you are at evidencing that you have mastered the intended learning goals for that specific assessment. However, if I do find that particular assessment questions I gave an assignment or exam were unreasonably challenging, unclear, or unfair for any reason I will  provide additional credit as appropriate. If you ever feel that an assignment or specific question is unfair or confusing please come and speak with me or your TA (ideally before it is due or during the assessment, but afterwards is okay also) so that we can address this concern as soon as possible. I am committed to making sure the assessment of your learning is comprehensive, fair, and incorporates best practices from education research on assessment design and inclusive practices.
 
 __Grading Scale:__
 
@@ -120,7 +133,7 @@ F| 0%-59%
 ______
 
 
-## Information About Our Course Assignments
+#### Information about Our Course Assignments
 
 __In class participation:__
 
@@ -138,7 +151,7 @@ __Final Project:__
 
 The final project for this course will require you to produce software that manipulates and analyzes data.  This software must have a practical application for a current research project. If you do not currently have a research project will be paired with a researcher that has a computational need that is appropriate for the scope of the course and student group size.   Student group size will depend on the size of the program required for the research project and whether you are an undergraduate or a graduate student.
 
-__Your final project will include and be evaluated based on the following criteria.__
+Your final project will include and be evaluated based on the following criteria.
 * Cleaver or insightful program name.  Everyone loves a bad acronym.  
 * Name and contact info for project members.
 * Your Readme file.
@@ -151,15 +164,15 @@ __Your final project will include and be evaluated based on the following criter
 ______
 
 
-## Course Schedule
+#### Course Schedule
 
 This is a tentative schedule and subject to change, with schedule adjustments posted on CCLE announcements and the Course Website.
 
 
 Date   | Topic & Learning Objectives | Complete Before Class | Complete During Class
 --- | --- | --- | ---
-__M April_1__ | __Setting up. Using Hoffman2, and the Unix Shell__ <br> __You__ will understand and be able to describe the structure of UCLA’s HPC. <br> __You__ will know the difference between login and compute nodes, and __YOU WILL__ use them appropriately. <br> __You__  will be able execute basic UNIX commands. <br> __You__  will understand directory structure and UNIX permissions, and be able to create/add/remove directories and files. <br> __You__  learn to help yourself by finding additional UNIX tutorials and resources. | __Do:__ Secure a laptop for class. <br> __Do:__ If you are operating a PC download an ssh client: https://www.hoffman2.idre.ucla.edu/access/#Windows | __You__ will be seated by operating system, so that people with platform specific blocks to progress can help each other troubleshoot. <br> __You__ will learn what Hoffman2 is, and how to login. <br> __You__ will learn basic Unix commands for Navigation and will build directories and files that we will use later in class.
-__W April_3__ | __Using Hoffman2, the Unix Shell, and text editors.__  <br> __You__ will execute more advanced commands in UNIX. <br> __You__ will learn how to transfer files between your computer and Hoffman2. <br> __You__ will be able to explain what a text editor does, and name at least three text editors that are available for use. | __Read:__ Chapter 2 ISCB <br> __Do:__ ISCB Exercises 2.13.1 and 2.13.2 and cp to the class Hoffman2 directory by 7:45 am 4/8/2019. <br> __Download__ a text editor that works with GitHub: https://help.github.com/en/articles/associating-text-editors-with-git (I like atom) __Download:__ https://cyberduck.io/ | __You__ will work in pairs during class.You will use different text editors. <br> __You__ will complete basic tasks on HOffman2 using the shell. <br> __You__ will complete file transfers using cyberduck. <br> __Bonus:__ Also complete ISCB exercises in 2.13.3 and/or 2.13.4 and get a reward!
+__M April_1__ | __Setting up. Using Hoffman2, and the Unix Shell__ <br> __You__ will understand and be able to describe the structure of UCLA’s HPC. <br> __You__ will know the difference between login and compute nodes, and __YOU WILL__ use them appropriately. <br> __You__  will be able execute basic UNIX commands. <br> __You__  will understand directory structure and UNIX permissions, and be able to create/add/remove directories and files. <br> __You__  learn to help yourself by finding additional UNIX tutorials and resources. | __Do:__ Secure a laptop for class.  | __You__ will be seated by operating system, so that people with platform specific blocks to progress can help each other troubleshoot. <br> __You__ will learn what Hoffman2 is, and how to login. <br> __You__ will learn basic Unix commands for Navigation and will build directories and files that we will use later in class.
+__W April_3__ | __Using Hoffman2, the Unix Shell, and text editors.__  <br> __You__ will execute more advanced commands in UNIX. <br> __You__ will learn how to transfer files between your computer and Hoffman2. <br> __You__ will be able to explain what a text editor does, and name at least three text editors that are available for use. | __Read:__ Chapter 2 ISCB <br> | __You__ will work in pairs during class. __You__ will learn to transfer data to Hoffman2 using globus, an SFTP client, scp, and with wget. <br> __You__ You will learn the basic functions of nano, emacs, and vim. <br> __You__ will learn basic search and manipulation tasks on Hoffman2 using the shell. <br> __You__ will complete in class exercises related to text file searches and manipulation <br> __Bonus:__ If you finish the in class exercises and complete ISCB exercises in 2.13.3 and/or 2.13.4 you will get a reward!
 __Discussion Week_1__ | __Git and GitHub:__ <br> __You__ will learn what git is, why is it used, how it is used. <br> __You__ will master basic commands in git. <br> __You__ will be able to interact with our GitHub classroom. <br> __You__ learn to interact with GitHub in the shell and through GitHub Desktop | __Download a text editor that works with GitHub (if you have not already):__ https://help.github.com/en/articles/associating-text-editors-with-git <br> __Download GitHub desktop:__ https://desktop.github.com/ | __You__ learn the basic skills needed to use git. <br> __You__ will associate your text editor with git. <br> __You__ will clone a repository. <br> __You__ will push some modification to the repository to the github classroom. <br> If there is time you will make a repository and start a personal website.
 __M April_8__ | __BASH I__ | TBD | TBD
 __W April_10__ | __BASH II and Project Introduction__ | TBD | TBD
@@ -194,7 +207,7 @@ __F June 14__ | __Final Project Submissions__ | TBD | TBD
 ______
 
 
-## Student Resources for Support and Learning
+#### Student Resources for Support and Learning
 
 __Providing feedback to me and to your TAs:__
 
@@ -215,7 +228,7 @@ Students needing academic accommodations based on a disability should contact th
 ______
 
 
-## Campus Resources and Support Services around UCLA Available to Students:
+#### Campus Resources and Support Services around UCLA Available to Students:
 
 __Academic Achievement Program:__
 
@@ -284,7 +297,7 @@ UCLA ONE is UCLA’s interactive, online gateway for mentorship, professional ne
 ______
 
 
-## Additional Course Policies and UCLA Policies
+#### Additional Course Policies and UCLA Policies
 
 __Message about Academic Integrity to all UCLA Students from UCLA Dean of Students:__
 
