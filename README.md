@@ -9,6 +9,8 @@ ______
 #### Lecture MW 8-9:15; Physics and Astronomy Building Room 2748
 #### Computer Lab T or R 1-2:50; WGYoung 4067
 #### Course Website
+https://dechavezv.github.io/eeb_C177_2019/
+
 #### Github classroom
 https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
 
@@ -24,7 +26,8 @@ The best way to contact me is by email or through the course GitHub.
 ###### Daniel Chavez
 dechavezv@ucla.edu
 
-Office Hours: MW 4-5 4th Floor Terasaki Life Science Building Common Area
+Office Hours: MW 4-5 Hershey Hall 309
+
 
 The best way to contact me is via email.
 
