@@ -115,3 +115,7 @@ JSV: No h_data is set; setting default h_data=1G (if this value is too small, th
 __If you are using a different means to login, check the tutorials for those programs to learn how to ssh into Hoffman2.  Once you are in all of the commands are the same__
 
 ---
+
+# Monday Challenge
+
+If you figure out how to change the command line prompt and make a small tutorial for the class instructing us how it is done, you will get a reward!  There is not limit to the number of people that can have the reward.
