@@ -5,9 +5,9 @@ We learned about Hoffman2.
 * There was an [in class presentation](https://dechavezv.github.io/eeb_C177_2019//lecture_pdfs/week1_Lecture_hoffman.pdf)
 * IDRE maintains an excellent page for everything [Hoffman2](https://www.hoffman2.idre.ucla.edu/)
 
-  The Bearden Lab has a great "How To" guide for using [Hoffman2](https://sites.google.com/site/uclabeardenlab/how-to-guides/hoffman)
+  * The Bearden Lab has a great "How To" guide for using [Hoffman2](https://sites.google.com/site/uclabeardenlab/how-to-guides/hoffman)
 
-  There is also a Neuroscience [Hoffman2 Wiki page](https://www.ccn.ucla.edu/wiki/index.php/Hoffman2)
+  * There is also a Neuroscience [Hoffman2 Wiki page](https://www.ccn.ucla.edu/wiki/index.php/Hoffman2)
 ---
 How to gain access to Hoffman2?
   * You need an ssh client
@@ -111,6 +111,20 @@ JSV: No h_data is set; setting default h_data=1G (if this value is too small, th
 
 * Notice that instead of '@login3' you now see '@n9758'
   * the n indicates that you have a compute node and it is number n9758
+  * later in the class you will learn how to check out larger amounts of data and for longer time periods.
+
+* to logout of a compute node type the following:
+
+```
+[c177-i0@n9758 ~]$ logout
+```
+
+* You will get the following response:
+
+```
+Connection to n9758 closed.
+[c177-i0@login3 ~]$
+```
 
 __If you are using a different means to login, check the tutorials for those programs to learn how to ssh into Hoffman2.  Once you are in all of the commands are the same__
 
