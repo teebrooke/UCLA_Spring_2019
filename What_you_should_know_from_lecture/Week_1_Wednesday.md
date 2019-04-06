@@ -298,3 +298,277 @@ example.txt
 * it also shows me the contents of the eeb-177 directory made for the discussion exercise and the two directories that we made in directory example
 
 * I am now going to remove the 'example.txt' file that I made using rm
+
+* I can cd into example_dir and then delete it
+
+```
+[c177-i0@n2010 ~]$ cd example_dir/
+[c177-i0@n2010 example_dir]$ ls
+example.txt
+[c177-i0@n2010 example_dir]$ rm example.txt
+[c177-i0@n2010 example_dir]$ ls
+```
+
+* I can also remove it from my home directory if I know the path to the file
+
+```
+[c177-i0@n2010 ~]$ rm example_dir/example.txt
+[c177-i0@n2010 ~]$ ls
+classdata  eeb-177  example  example_dir  scratch
+[c177-i0@n2010 ~]$ ls example_dir/
+[c177-i0@n2010 ~]$
+```
+
+* If I want to be a little safer about using rm I can use the flag -*
+
+```
+[c177-i0@n2010 example_dir]$ ls
+example.txt
+[c177-i0@n2010 example_dir]$ rm -i example.txt
+rm: remove regular empty file `example.txt'? y
+[c177-i0@n2010 example_dir]$ ls
+[c177-i0@n2010 example_dir]$
+```
+
+* if it was a mistake to type rm I can say no
+
+```
+[c177-i0@n2010 example_dir]$ rm -i example.txt
+rm: remove regular empty file `example.txt'? n
+[c177-i0@n2010 example_dir]$ ls
+example.txt
+```
+
+---
+
+Lets look at a file
+
+* cd into '~/classdata/Week1/Wednesday_in_class'
+  * notice that I am using the ~ for the home directory  
+
+* this directory contains the following:
+
+```
+[c177-i0@n2010 Wednesday_in_class]$ ls
+README.populations               sort_ex_2.txt    uniq_color3.txt
+README.populations.modified.txt  uniq_color1.txt  uniq_ex_1.txt
+sort_ex_1.txt                    uniq_color2.txt
+```
+
+* I can look at the entire contents of these files using 'less'
+
+```
+[c177-i0@n2010 Wednesday_in_class]$ less sort_ex_1.txt
+```
+
+* the Shell will show me something that looks like this
+
+```
+Griffon Bleu de Gascogne
+Segugio Italiano
+Blue Heeler
+Pachon Navarro
+Treeing Tennessee Brindle
+Ratonero Valenciano
+Maltese
+Labradoodle
+Bruno Jura Hound
+Cesky Fousek
+Armant
+Stabyhoun
+sort_ex_1.txt (END)
+
+
+
+
+
+
+
+```
+
+* to get back to the command prompt use 'q'
+
+* I can also look at the top ten lines of the file using 'head'.  10 lines is the default
+
+```
+[c177-i0@n2010 Wednesday_in_class]$ head sort_ex_1.txt
+Griffon Bleu de Gascogne
+Segugio Italiano
+Blue Heeler
+Pachon Navarro
+Treeing Tennessee Brindle
+Ratonero Valenciano
+Maltese
+Labradoodle
+Bruno Jura Hound
+Cesky Fousek
+[c177-i0@n2010 Wednesday_in_class]$
+```
+
+* I can look at any number of lines using the flag -n
+
+```
+[c177-i0@n2010 Wednesday_in_class]$ head -n 3 sort_ex_1.txt
+Griffon Bleu de Gascogne
+Segugio Italiano
+Blue Heeler
+[c177-i0@n2010 Wednesday_in_class]$
+```
+
+* -n 3 printed only the first three lines
+
+* 'tail' will show me the bottom ten lines (by default)
+
+```
+[c177-i0@n2010 Wednesday_in_class]$ tail sort_ex_1.txt
+Blue Heeler
+Pachon Navarro
+Treeing Tennessee Brindle
+Ratonero Valenciano
+Maltese
+Labradoodle
+Bruno Jura Hound
+Cesky Fousek
+Armant
+Stabyhoun[c177-i0@n2010 Wednesday_in_class]$
+```
+
+* I can also use the -n flag with tail
+
+```
+[c177-i0@n2010 Wednesday_in_class]$ tail -n 2 sort_ex_1.txt
+Armant
+Stabyhoun[c177-i0@n2010 Wednesday_in_class]$
+```
+
+* Note that the command prompt is on the same line as the last line of the file.  This is because I did not add a new line to the end of my file.
+
+---
+
+Lets build a directory
+
+* In '~/classdata/Week1/Monday_in_class' there is a file called 'Do_first_Build_directory_exercise.txt '
+
+* this file contains
+
+```
+[c177-i0@n2010 Monday_in_class]$ head ~/classdata/Week1/Monday_in_class/Do_first_Build_directory_exercise.txt
+lecture_1
+└── syllabus
+    ├── full_document
+    └── partial_document
+
+
+[c177-i0@n2010 Monday_in_class]$
+```
+
+* Build this directory structure from your home directory
+
+* There are many ways to do this.
+
+* here is one example
+
+```
+[c177-i0@n2010 Monday_in_class]$ mkdir -p $HOME/Lecture_1/syllabus/full_document
+[c177-i0@n2010 Monday_in_class]$ mkdir -p $HOME/Lecture_1/syllabus/partial_document
+```
+
+* I can check it is in home using 'ls -R'
+
+```
+[c177-i0@n2010 Monday_in_class]$ ls -R $HOME
+/u/home/class/c177/c177-i0:
+classdata  eeb-177  example  example_dir  Lecture_1  scratch
+
+/u/home/class/c177/c177-i0/eeb-177:
+Favorite_animal.txt  README.txt  W1-Discussion-In-class.txt
+
+/u/home/class/c177/c177-i0/example:
+example_1
+
+/u/home/class/c177/c177-i0/example/example_1:
+example_A
+
+/u/home/class/c177/c177-i0/example/example_1/example_A:
+
+/u/home/class/c177/c177-i0/example_dir:
+example.txt
+
+/u/home/class/c177/c177-i0/Lecture_1:
+syllabus
+
+/u/home/class/c177/c177-i0/Lecture_1/syllabus:
+full_document  partial_document
+
+/u/home/class/c177/c177-i0/Lecture_1/syllabus/full_document:
+
+/u/home/class/c177/c177-i0/Lecture_1/syllabus/partial_document:
+[c177-i0@n2010 Monday_in_class]$
+```
+
+* I could have also done this  
+
+```
+[c177-i0@n2010 Monday_in_class]$ cd ~
+[c177-i0@n2010 ~]$ mkdir Lecture_1
+[c177-i0@n2010 ~]$ cd Lecture_1/
+[c177-i0@n2010 Lecture_1]$ mkdir full_document
+[c177-i0@n2010 Lecture_1]$ mkdir partial_document
+```
+
+* I can think of several other ways to accomplish this task
+
+
+* Can you make a file structure from Lecture_1 that looks like this and contains a file?
+
+```
+lecture_1
+└── folders_for_file
+    └── folder_A
+          |── folder_A.1
+          |── folder_A.2 -- file_for_folder_A.2.txt
+          └── folder_A.3
+```
+
+---
+
+Copying files between directories
+
+* Use the command 'cp'.  It works like this
+  * cp <path of the file to move> <path to directory where you want it>
+
+* lets move the file syllabus.txt from the directory ~/classdata/Week1/Monday_in_class and move it to the directory ~/Lecture_1/syllabus/full_document
+
+```
+[c177-i0@n2010 ~]$ cp ~/classdata/Week1/Monday_in_class/syllabus.txt ~/Lecture_1/syllabus/full_document/
+[c177-i0@n2010 ~]$ ls ~/Lecture_1/syllabus/full_document/
+syllabus.txt
+[c177-i0@n2010 ~]$
+```
+
+* now I can look at the contents of the file
+
+```
+[c177-i0@n2010 ~]$ head ~/Lecture_1/syllabus/full_document/syllabus.txt
+# __Practical Computing for Evolutionary Biologists and Ecologists Syllabus; EEB C177/C234__
+Course Basic Information |  Course Logistics  
+--- | ---
+__Spring 2019__ <br> __Letter grading__ <br>  __Units:__ 4 <br> __Prerequisite:__ Life Sciences 1 or 7B. | __Lecture:__ MW 8-9:15; Physics and Astronomy Building Room 2748 <br>  __Computer Lab:__ T or R 1-2:50; WGYoung 4067 <br> __Course Website:__ <br> __Github classroom:__ <br> https://classroom.github.com/classrooms/47793618-pceeb-practical_computing_sp2019
+
+____
+## Instructor: Emily Curd <br>
+eecurd@g.ucla.edu<br>
+__Office Hours:__ MW 9:30-10:30 Music School Café
+<br> The best way to contact me is by email or through the course GitHub.
+[c177-i0@n2010 ~]$
+```
+
+---
+
+# Wednesday Challenge
+
+Move these documents into ~/Lecture_1/syllabus/partial_documents:
+* final_project.txt                        
+* Lab_assignments_participation.txt
+* Homework.txt                           
+* In_class_Participation.txt
