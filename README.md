@@ -174,35 +174,35 @@ This is a tentative schedule and subject to change, with schedule adjustments po
 
 Date   | Topic & Learning Objectives | Complete Before Class | Complete During Class
 --- | --- | --- | ---
-__M April_1__ | __Setting up. Using Hoffman2, and the Unix Shell__ <br> __You__ will understand and be able to describe the structure of UCLA’s HPC. <br> __You__ will know the difference between login and compute nodes, and __YOU WILL__ use them appropriately. <br> __You__  will be able execute basic UNIX commands. <br> __You__  will understand directory structure and UNIX permissions, and be able to create/add/remove directories and files. <br> __You__  learn to help yourself by finding additional UNIX tutorials and resources. | __Do:__ Secure a laptop for class.  | __You__ will be seated by operating system, so that people with platform specific blocks to progress can help each other troubleshoot. <br> __You__ will learn what Hoffman2 is, and how to login. <br> __You__ will learn basic Unix commands for Navigation and will build directories and files that we will use later in class.
-__W April_3__ | __Using Hoffman2, the Unix Shell, and text editors.__  <br> __You__ will execute more advanced commands in UNIX. <br> __You__ will learn how to transfer files between your computer and Hoffman2. <br> __You__ will be able to explain what a text editor does, and name at least three text editors that are available for use. | __Read:__ Chapter 2 ISCB <br> | __You__ will work in pairs during class. __You__ will learn to transfer data to Hoffman2 using globus, an SFTP client, scp, and with wget. <br> __You__ You will learn the basic functions of nano, emacs, and vim. <br> __You__ will learn basic search and manipulation tasks on Hoffman2 using the shell. <br> __You__ will complete in class exercises related to text file searches and manipulation <br> __Bonus:__ If you finish the in class exercises and complete ISCB exercises in 2.13.3 and/or 2.13.4 you will get a reward!
+__M April_1__ | __Setting up. Using Hoffman2 and the Unix Shell__ <br> __You__ will understand and be able to describe the structure of UCLA’s HPC. <br> __You__ will know the difference between login and compute nodes, and __YOU WILL__ use them appropriately.  __You__ will learn to help yourself by finding additional UNIX tutorials and resources. | __Do:__ Secure a laptop for class.  | __You__ will learn what Hoffman2 is, and how to login. <br> __You__ will learn basic Unix commands for Navigation and will build directories and files that we will use later in class.
+__W April_3__ | __Using Hoffman2, and the Unix Shell__  <br> __You__ will execute more advanced commands in UNIX. | __Read:__ Chapter 2 ISCB <br> | __YOU__ will be able execute basic UNIX commands. <br> __You__  will understand UNIX directory structure, and be able to create/add/remove directories and files. <br>
 __Discussion Week_1__ | __Git and GitHub:__ <br> __You__ will learn what git is, why is it used, how it is used. <br> __You__ will master basic commands in git. <br> __You__ will be able to interact with our GitHub classroom. <br> __You__ learn to interact with GitHub in the shell and through GitHub Desktop | __Download a text editor that works with GitHub (if you have not already):__ https://help.github.com/en/articles/associating-text-editors-with-git <br> __Download GitHub desktop:__ https://desktop.github.com/ | __You__ learn the basic skills needed to use git. <br> __You__ will associate your text editor with git. <br> __You__ will clone a repository. <br> __You__ will push some modification to the repository to the github classroom. <br> If there is time you will make a repository and start a personal website.
-__M April_8__ | __BASH I__ | TBD | TBD
-__W April_10__ | __BASH II and Project Introduction__ | TBD | TBD
+__M April_8__ | __Using Hoffman2, and the Unix Shell__  <br> __You__ will execute more advanced commands in UNIX. <br> __You__ will learn how to transfer files between your computer and Hoffman2. <br> __You__ will be able to explain what a text editor does, and name at least three text editors that are available for use.| N/A | __You__ will work in pairs during class. __You__ will learn to transfer data to Hoffman2 using globus, an SFTP client, scp, and with wget. <br> __You__ You will learn the basic functions of nano, emacs, and vim.
+__W April_10__ | __Unix shell, BASH I and Project Introduction__ | __Turn-in__ example 2.13.1 to the GitHub Classroom | __You__ will learn basic search and manipulation tasks on Hoffman2 using the shell. <br> __You__ will complete in class exercises related to text file searches and manipulation <br>
 __Discussion Week_2__ | __CV in Markdown:__ <br> __You__ will learn how to use Markdown. <br>__You__  will give and receive actionable criticism. | __Make__ a draft CV and bring it to class. <br> __Read the following when building your CV:__ <br> http://hwpi.harvard.edu/files/ocs/files/gsas-just-for-scientists-cvs-resumes.pdf <br> https://grad.ucla.edu/asis/agep/advcv.pdf <br> https://gum.ucla.edu/wp-content/uploads/Workshop-3-Presentation-CV-Resume.pdf | __As a class__, you will discuss the components of a CV. <br>__You__ will peer review CVs In small groups (3 - 5 people). Everyone’s CV will be different, and will have different content. Your goal is to make the best CV that reflects who you are. br>__You__ will learn to transform your CV into a Markdown document.
-__M April_15__ | __BASH III__ | TBD | TBD
-__W April_17__ | __Hoffman2 Job submission__ | TBD | TBD
+__M April_15__ | __BASH II__ | TBD | TBD
+__W April_17__ | __BASH III__ | TBD | TBD
 __Discussion Week_3__ | __Project Basics__ | TBD | TBD
-__M April_22__ | __Python I__ | TBD | TBD
-__W April_24__ | __Python II__ | TBD | TBD
+__M April_22__ | __Hoffman2 Job submission__ | TBD | TBD
+__W April_24__ | __Python I__ | TBD | TBD
 __Discussion Week_4__ | __Project map / Flow chart__ | TBD | TBD
-__M April_29__ | __Python III__ | TBD | TBD
-__W May_1__ | __R I__ | TBD | TBD
+__M April_29__ | __Python II__ | TBD | TBD
+__W May_1__ | __Python maintaining__ | TBD | TBD
 __Discussion Week_5__ | __Project GitHub Readme__ | TBD | TBD
-__M May_6__ | __R II__ | TBD | TBD
-__W May_8__ | __R III__ | TBD | TBD
+__M May_6__ | __R I__ | TBD | TBD
+__W May_8__ | __R II__ | TBD | TBD
 __Discussion Week_6__ | __Project Scripts__ | TBD | TBD
-__M May_13__ | __Integrating Bash, Python, and R I__ | TBD | TBD
-__W May_15__ | __Integrating Bash, Python, and R II__ | TBD | TBD
+__M May_13__ | __R III__ | TBD | TBD
+__W May_15__ | __Integrating Bash, Python, and R I__ | TBD | TBD
 __Discussion Week_7__ | __Project Scripts__ | TBD | TBD
-__M May_20__ | __Integrating Bash, Python, and R III__ | TBD | TBD
-__W May_22__ | __SQL, SQlite, databases__ | TBD | TBD
+__M May_20__ | __Integrating Bash, Python, and R II__ | TBD | TBD
+__W May_22__ | __Integrating Bash, Python, and R III__ | TBD | TBD
 __Discussion Week_8__ | __Project Vignette__ | TBD | TBD
 __M May_27__ | __Holiday!__ | __Holiday!__ | __Holiday!__
 __W May_29__ | __SQL, SQlite, databases__ | TBD | TBD
 __Discussion Week_9__ | __Project Vignette__ | TBD | TBD
 __M June_3__ | __Project Presentations I__  | TBD | TBD
-__W June_5__ | __Project Presentations I__  | TBD | TBD
+__W June_5__ | __Project Presentations II__  | TBD | TBD
 __Discussion Week_10__ | __Evaluate Your Peer's Projects__ | TBD | TBD
 __F June 14__ | __Final Project Submissions__ | TBD | TBD
 
