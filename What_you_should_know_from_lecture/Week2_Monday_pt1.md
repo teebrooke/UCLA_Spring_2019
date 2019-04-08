@@ -66,19 +66,19 @@ This course includes a broad range of topics and tools. Practice is the best way
 __In class participation:__
 
 You will work alone or in teams during class time to generate scripts, solve problems, and participate in class challenges. These activities are designed to test your understanding of your homework assignments and challenge you to think more creatively about programming. All in class activities must be turned in during class to the course GitHub. If you have an excused absence (criteria for an excused absence is detailed below), you will be given an alternate exercise.  The lowest in class assignment score will be dropped from your in-class participation grade.
-[c177-i0@login2 partial_documents]$
+[c177-i0@n2010 partial_documents]$
 ```
 
 You can verify that the file content is being added in order by looking at each file using 'head' or 'less'.
 
 ```
-[c177-i0@login2 partial_documents]$ head Homework.txt
+[c177-i0@n2010 partial_documents]$ head Homework.txt
 __Homework:__
 
 This course includes a broad range of topics and tools. Practice is the best way to learn how to program and homework assignments will prepare you for in class activities. Homework assignments will help you learn and master basic programming skills. Homework assignments will be submitted electronically before class. The submission cutoff is 7:45 am the day of class. Late submissions will be accepted but penalized 10% each day late (submitting 7:46 the day of class counts as 1 day late).
 ```
 ```
-[c177-i0@login2 partial_documents]$ head final_project.txt
+[c177-i0@n2010 partial_documents]$ head final_project.txt
 __Final Project:__
 
 The final project for this course will require you to produce software that manipulates and analyzes data.  This software must have a practical application for a current research project. If you do not currently have a research project will be paired with a researcher that has a computational need that is appropriate for the scope of the course and student group size.   Student group size will depend on the size of the program required for the research project and whether you are an undergraduate or a graduate student.
@@ -94,13 +94,13 @@ __Your final project will include and be evaluated based on the following criter
 We can now make a new document to store this information using a redirect '>'.
 
 ```
-[c177-i0@login2 partial_documents]$ cat Homework.txt  final_project.txt Lab_assignments_participation.txt Homework.txt In_class_Participation.txt > new_file.txt
+[c177-i0@n2010 partial_documents]$ cat Homework.txt  final_project.txt Lab_assignments_participation.txt Homework.txt In_class_Participation.txt > new_file.txt
 ```
 
 Now lets see what is in the directory
 
 ```
-[c177-i0@login2 partial_documents]$ ls
+[c177-i0@n2010 partial_documents]$ ls
 final_project.txt  In_class_Participation.txt         new_file.txt
 Homework.txt       Lab_assignments_participation.txt
 ```
@@ -108,7 +108,7 @@ Homework.txt       Lab_assignments_participation.txt
 We can check out the contents of the file using 'less'
 
 ```
-[c177-i0@login2 partial_documents]$ less new_file.txt
+[c177-i0@n2010 partial_documents]$ less new_file.txt
 
 __Homework:__
 
@@ -128,9 +128,9 @@ Remember that "q" allows you to exit 'less'.
 Lets remove new_file.txt
 
 ```
-[c177-i0@login2 partial_documents]$ rm -i new_file.txt
+[c177-i0@n2010 partial_documents]$ rm -i new_file.txt
 rm: remove regular file `new_file.txt'? y
-[c177-i0@login2 partial_documents]$
+[c177-i0@n2010 partial_documents]$
 ```
 
 Remember that the -i flag asks you if you really want to do this.
@@ -140,12 +140,12 @@ Now, review the contents of the syllabus document in ~/Lecture_1/syllabus/full_d
 You can do this a number of ways...
 
 ```
-[c177-i0@login2 partial_document]$ less ../syllabus/full_document/syllabus.txt
+[c177-i0@n2010 partial_document]$ less ../syllabus/full_document/syllabus.txt
 ```
 
 ```
-[c177-i0@login2 partial_document]$ cd ../syllabus/full_document/
-[c177-i0@login2 partial_document]$ less syllabus.txt
+[c177-i0@n2010 partial_document]$ cd ../syllabus/full_document/
+[c177-i0@n2010 partial_document]$ less syllabus.txt
 ```
 
 etc
@@ -194,17 +194,17 @@ __Your final project will include and be evaluated based on the following criter
 Lets move this new document to the full_document directory.  We could make a copy of it using 'cp' but perhaps we do not need multiple copies of course_assignments.txt. You will use 'mv'.
 
 ```
-[c177-i0@login2 partial_documents]$ ls
+[c177-i0@n2010 partial_documents]$ ls
 course_assignments.txt                 In_class_Participation.txt
 Do_first_Build_directory_exercise.txt  Lab_assignments_participation.txt
 final_project.txt                      syllabus.txt
 Homework.txt
-[c177-i0@login2 partial_documents]$ mv course_assignments.txt  ../full_document/
-[c177-i0@login2 partial_documents]$ ls
+[c177-i0@n2010 partial_documents]$ mv course_assignments.txt  ../full_document/
+[c177-i0@n2010 partial_documents]$ ls
 Do_first_Build_directory_exercise.txt  In_class_Participation.txt
 final_project.txt                      Lab_assignments_participation.txt
 Homework.txt                           syllabus.txt
-[c177-i0@login2 partial_documents]$ ls ../full_document/
+[c177-i0@n2010 partial_documents]$ ls ../full_document/
 course_assignments.txt  syllabus.txt
 ```
 
@@ -215,14 +215,14 @@ Wild cards are fun!  Say we now want to delete all of the text files in the part
 Before we get totally crazy lets just play with the wildcard ' * ' .
 
 ```
-[c177-i0@login2 partial_documents]$ ls *_*.txt
+[c177-i0@n2010 partial_documents]$ ls *_*.txt
 Do_first_Build_directory_exercise.txt  In_class_Participation.txt
 final_project.txt                      Lab_assignments_participation.txt
-[c177-i0@login2 partial_documents]$ ls
+[c177-i0@n2010 partial_documents]$ ls
 Do_first_Build_directory_exercise.txt  In_class_Participation.txt
 final_project.txt                      Lab_assignments_participation.txt
 Homework.txt                           syllabus.txt
-[c177-i0@login2 partial_documents]$
+[c177-i0@n2010 partial_documents]$
 ```
 
 What was not displayed when we used the wildcard.  Basically we looked for any file name that contained one underscore.  
@@ -250,16 +250,16 @@ Another useful command is "wc". It prints newline, word, and byte counts for eac
 Lets look at the basics of the files in full_document
 
 ```
-[c177-i0@login2 partial_documents]$ cd ../full_document/
-[c177-i0@login2 full_document]$ ls
+[c177-i0@n2010 partial_documents]$ cd ../full_document/
+[c177-i0@n2010 full_document]$ ls
 course_assignments.txt  syllabus.txt
-[c177-i0@login2 full_document]$ wc *
+[c177-i0@n2010 full_document]$ wc *
    21   470  2896 course_assignments.txt
   339  4551 29370 syllabus.txt
   360  5021 32266 total
-[c177-i0@login2 full_document]$ wc
+[c177-i0@n2010 full_document]$ wc
 ^C
-[c177-i0@login2 full_document]$
+[c177-i0@n2010 full_document]$
 ```
 For course course_assignments.txt for example, wc gives us the number of lines = 21 the number of words = 470 and the number of bytes = 2896
 
@@ -268,15 +268,15 @@ __Note__: for Hoffman2 you need to use the wildcard to use wc on an entire direc
 We can also just ask for the line counts
 
 ```
-[c177-i0@login2 full_document]$ wc -l *
+[c177-i0@n2010 full_document]$ wc -l *
    21 course_assignments.txt
   339 syllabus.txt
   360 total
-[c177-i0@login2 full_document]$ wc -l syllabus.txt
+[c177-i0@n2010 full_document]$ wc -l syllabus.txt
 339 syllabus.txt
-[c177-i0@login2 full_document]$ wc -w syllabus.txt
+[c177-i0@n2010 full_document]$ wc -w syllabus.txt
 4551 syllabus.txt
-[c177-i0@login2 full_document]$ wc -c syllabus.txt
+[c177-i0@n2010 full_document]$ wc -c syllabus.txt
 29370 syllabus.txt
 ```
 ---
@@ -293,7 +293,7 @@ Community_Ecology_Syllabus_draft_1.txt        100% 1148    70.9KB/s   00:00
 It transferred successfully to hoffman2.
 
 ```
-[c177-i0@login3 Lecture_1]$ ls
+[c177-i0@n2010 Lecture_1]$ ls
 Community_Ecology_Syllabus_draft_1.txt  syllabus
 ```
 
@@ -309,7 +309,7 @@ Lets first make a nested directory ~/week2_monday/wget_test/, then 'cd' into it.
 We are going to download something from the internet into the new directory wget_test
 
 ```
-[c177-i0@login3 wget_test]$ wget ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/README.populations
+[c177-i0@n2010 wget_test]$ wget ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/README.populations
 --2019-04-07 15:45:10--  ftp://ftp.ncbi.nlm.nih.gov/1000genomes/ftp/README.populations
            => “README.populations”
 Resolving ftp.ncbi.nlm.nih.gov... 130.14.250.13, 2607:f220:41e:250::13
@@ -325,7 +325,7 @@ Length: 1938 (1.9K) (unauthoritative)
 
 2019-04-07 15:45:12 (236 KB/s) - “README.populations” saved [1938]
 
-[c177-i0@login3 wget_test]$ ls
+[c177-i0@n2010 wget_test]$ ls
 README.populations
 ```
 This file should contain the following text:
@@ -388,7 +388,7 @@ Type the following into your browser:  `ftp://ftp.ncbi.nlm.nih.gov/1000genomes/f
 Now lets get the Wikipedia page associated with the 1000genomes project.
 
 ```
-[c177-i0@login3 wget_test]$ wget https://en.wikipedia.org/wiki/1000_Genomes_Project
+[c177-i0@n2010 wget_test]$ wget https://en.wikipedia.org/wiki/1000_Genomes_Project
 --2019-04-07 15:47:19--  https://en.wikipedia.org/wiki/1000_Genomes_Project
 Resolving en.wikipedia.org... 198.35.26.96, 2620:0:863:ed1a::1
 Connecting to en.wikipedia.org|198.35.26.96|:443... connected.
@@ -404,7 +404,7 @@ Saving to: “1000_Genomes_Project”
 Lets peak under the hood a little.
 
 ```
-[c177-i0@login3 wget_test]$ head 1000_Genomes_Project
+[c177-i0@n2010 wget_test]$ head 1000_Genomes_Project
 <!DOCTYPE html>
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
@@ -415,7 +415,7 @@ Lets peak under the hood a little.
 });RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
 <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.3d.styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
-[c177-i0@login3 wget_test]$
+[c177-i0@n2010 wget_test]$
 ```
 
 Yikes let see what it should look like:  `https://en.wikipedia.org/wiki/1000_Genomes_Project`
