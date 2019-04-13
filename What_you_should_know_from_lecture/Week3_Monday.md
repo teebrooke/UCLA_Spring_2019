@@ -1,4 +1,4 @@
-# What You Should Know From Lecture: Week 3
+variable# What You Should Know From Lecture: Week 3
 
 ### Monday:
 #### Announcements-
@@ -147,6 +147,8 @@ $ var= varia
 $ var =variab
 ```
 It does not work.
+
+What if my variable needs to have white spaces? Perhaps We want to store the following `Quincey dog` in the variable q_beast.
 
 ---
 
