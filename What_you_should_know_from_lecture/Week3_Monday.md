@@ -261,13 +261,13 @@ UC Hastings: ??
 ```
 Why did they all show up?  What does this tell you about grep?
 
-Write a small program that prints the top 2 and bottom 3 lines of UC_mascots.txt.  Call it heads_and_tails_<your_initials>\_<your_partners_initials>.sh and add it to ~/classdata/In_class/week2/my_first_scripts_for_PCEEB .  It must contain comments for usage.
+Write a small program that prints the top 2 and bottom 3 lines of UC_mascots.txt.  Call it heads_and_tails_<your_initials>\_<your_partners_initials>.sh and add it to ~/classdata/In_class/Week3/my_first_scripts_for_PCEEB .  It must contain comments for usage.
 
 
-Now write a small program that allow the user to identify the number of lines that they want to print from the top and the number of lines that they want to print from the bottom of the file. Call it heads_and_tails_<your_initials>\_<your_partners_initials>1.sh and add it to ~/classdata/In_class/week2/my_first_scripts_for_PCEEB . It must contain comments for usage.
+Now write a small program that allow the user to identify the number of lines that they want to print from the top and the number of lines that they want to print from the bottom of the file. Call it heads_and_tails_<your_initials>\_<your_partners_initials>1.sh and add it to ~/classdata/In_class/Week3/my_first_scripts_for_PCEEB . It must contain comments for usage.
 
 
-Now write a small program that allow the user to identify the number of lines that they want to print from the top and the number of lines that they want to print from the bottom of the file. Finally allow the user to indicate the file that they want to input into the script. Call it heads_and_tails_<your_initials>\_<your_partners_initials>3.sh and add it to ~/classdata/In_class/week2/my_first_scripts_for_PCEEB . It must contain comments for usage.
+Now write a small program that allow the user to identify the number of lines that they want to print from the top and the number of lines that they want to print from the bottom of the file. Finally allow the user to indicate the file that they want to input into the script. Call it heads_and_tails_<your_initials>\_<your_partners_initials>3.sh and add it to ~/classdata/In_class/Week3/my_first_scripts_for_PCEEB . It must contain comments for usage.
 
 ---
 
