@@ -1,11 +1,20 @@
-variable# What You Should Know From Lecture: Week 3
+# What You Should Know From Lecture: Week 3
 
 ### Monday:
 #### Announcements-
 
-HW
-Readings
-project
+__Homework__
+HW2 is due tonight at 11:00:00 pm.
+
+You will have a small homework assignment due before class on Wednesday.
+
+__Readings__
+As indicated in your homework assignment please read the following tutorial on [loops](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php)
+
+__Projects__
+We have posted the project overview on GitHub.  In discussion you will spend time brainstorming about your project.  If you do not have any ideas, no worries, we are here to help you out!
+
+If you are worried about your project, come to my office hours.  They are after class at the Music Cafe.
 
 ---
 
