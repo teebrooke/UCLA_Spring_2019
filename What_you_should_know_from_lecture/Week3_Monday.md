@@ -19,6 +19,7 @@ If you are worried about your project, come to my office hours.  They are after 
 ---
 
 #### Warm up exercise:
+__Make a directory__ for todays class. cd into that directory
 
 1. Find a partner
 2. Create / write the following to a text file (technically a script) called test_shell_script_<your_initials>\_<your_partners_initials>.sh
@@ -41,7 +42,7 @@ echo "Have a great day!"
 
 ```
 
-3. cp your file (technically a script) to the directory ~/classdata/In_class/week2/my_first_scripts_for_PCEEB
+3. cp your file (technically a script) to the directory ~/classdata/In_class/week3/my_first_scripts_for_PCEEB
 
 ---
 
@@ -76,7 +77,7 @@ sh bash ~/classdata/In_class/week2/my_first_scripts_for_PCEEB/test_shell_script_
 
 ---
 
-#### Ooooo a for loop
+#### Ooooo a 'for' loop
 
 What if we want to run all of the scripts in this directory at the same time?  We could write a for loop that lets us do this!!!!
 
