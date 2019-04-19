@@ -370,18 +370,20 @@ __Make a directory__ for todays class. cd into that directory.
 
 __Copy__ all of your scripts and text files into `~/classdata/In_class/Week4/Monday`
 
-1. Write a script called <your initials>cut_stuff.sh . Your script needs to include the following:
-  * comments on usage
-  * It must take an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
+__Comments__ on usage and that explain what your script does are required for all scripts.
+
+1. Write a script called <your initials>cut_stuff.sh that
+  * takes an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
   `$ sh cut_stuff_EC.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.sh`
 
   * It must cut the text file at the first argument keep the text in the column indicated by the second argument and print that column to a new folder.
   __Hint__ see line 171-177 of Week 2 Wednesday.
 
 
-2. Take the for loop that you used in class to print the colors of the rainbow (as is) and make a script called <your_initials>rainbow1.sh that runs that for loop, then takes that output file and generates another output file that has the colors printed in reverse order.
+2. Take the for loop example in the lecture notes that prints the colors of the rainbow, and modify the script to print the colors in reverse order and redirect the output to an output file. Called the scripts <your_initials>rainbow1.sh
 
-3. Write and comment a script called <your_initials>rainbow2.sh that takes the for loop that you used in class to print the colors of the rainbow (as is) and if the color is equal to blue print sky, for every other color print fire.  Save this script as color.sh . The output should be as follows:
+3. Take the for loop example in the lecture notes that prints the colors of the rainbow, and modify the script to rint the colors of the rainbow (as is) and if the color is equal to blue print sky, for every other color print fire. Save this script as <your_initials>rainbow2.sh
+The output will look like the following:
 ```
 red
 fire
