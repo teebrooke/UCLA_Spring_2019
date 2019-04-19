@@ -364,26 +364,24 @@ else
 fi     # $String is Not null.
 
 ```
-#### In class exercise:
+#### In class exercises:
 
-__Make a directory__ for todays class. cd into that directory
+__Make a directory__ for todays class. cd into that directory.
 
-1. Write a script called cut_stuff_<your_initials>\_<your_partners_initials>.sh
+__Copy__ all of your scripts and text files into `~/classdata/In_class/Week4/Monday`
 
-2. You script needs to include the following:
+1. Write a script called <your initials>cut_stuff.sh . Your script needs to include the following:
   * comments on usage
   * It must take an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
-  `$ sh cut_stuff_EC_DC.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.sh`
+  `$ sh cut_stuff_EC.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.sh`
 
   * It must cut the text file at the first argument keep the text in the column indicated by the second argument and print that column to a new folder.
   __Hint__ see line 171-177 of Week 2 Wednesday.
 
-3. Copy or move the script to `~/classdata/In_class/Week3/my_first_scripts_for_PCEEB`
 
+2. Take the for loop that you used in class to print the colors of the rainbow (as is) and make a script called <your_initials>rainbow1.sh that runs that for loop, then takes that output file and generates another output file that has the colors printed in reverse order.
 
-4. Take the for loop that you used in class to print the colors of the rainbow (as is) and make a script that runs that for loop, then takes that output file and generates another output file that has the colors printed in reverse order.
-
-5. Write and comment a script that takes the for loop that you used in class to print the colors of the rainbow (as is) and if the color is equal to blue print sky, for every other color print fire.  Save this script as color.sh . The output should be as follows:
+3. Write and comment a script called <your_initials>rainbow2.sh that takes the for loop that you used in class to print the colors of the rainbow (as is) and if the color is equal to blue print sky, for every other color print fire.  Save this script as color.sh . The output should be as follows:
 ```
 red
 fire
@@ -401,16 +399,16 @@ violet
 fire
 ```
 
-6. Write an script that contains an until loop that prints a counter from 5 until the counter is greater than 8. Call this script until_8.sh
+4. Write an script called <your_initials>until8.sh that contains an until loop that prints a counter from 5 until the counter is greater than 8.
 
-7. Write an script that contains an while loop that prints a counter while the counter is not greater than
+5. Write an script called <your_initials>while_8.sh that contains an while loop that prints a counter while the counter is not greater than 8. Start the counter at 5.  
 
-8. Start the counter at 5.  Call this script while_8.sh
-
-9. Write an script that contains an range loop that prints a range of numbers from 5 to 8. Call this script range_8.sh
+6. Write an script called <your_initials>range8.sh that contains an range loop that prints a range of numbers from 5 to 8.
 
 
 ----
+
+Make a text file called <your_initials>Week4_monday.txt
 
 If you ls the the directory ~/classdata/Homework_data/data-shell/molecules directory, you get the following output:
 
