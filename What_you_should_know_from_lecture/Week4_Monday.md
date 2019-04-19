@@ -1,4 +1,4 @@
-# What You Should Know For Lecture: Week 4
+exercises# What You Should Know For Lecture: Week 4
 
 ### Monday:
 
@@ -366,11 +366,11 @@ fi     # $String is Not null.
 ```
 #### In class exercises:
 
-__Make a directory__ for todays class. cd into that directory.
+__Make a directory__ in your home directory for todays class. cd into that directory.
 
-__Copy__ all of your scripts and text files into `~/classdata/In_class/Week4/Monday`
+__At the end of class__ copy all of your scripts and text files into `~/classdata/In_class/Week4/Monday`. __I will grade your exercises only if the end up in this directory__.
 
-__Comments__ on usage and that explain what your script does are required for all scripts.
+__All Scripts require comments__ on usage and explanations for  what your script does.
 
 1. Write a script called <your initials>cut_stuff.sh that
   * takes an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
