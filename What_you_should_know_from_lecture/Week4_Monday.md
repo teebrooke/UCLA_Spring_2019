@@ -1,11 +1,13 @@
-# What You Should Know From Lecture: Week 3
+# What You Should Know For Lecture: Week 4
 
-### Wednesday:
+### Monday:
+
 #### Announcements-
-__Homework__
-HW3 was due today.
 
-HW4 will be due on Monday before class.
+__Homework__
+
+Any exercises not completed in class will be due Wednesday.  There is also an HW 4 assignment due on Wednesday by 11 pm.
+
 
 __Readings__
 Read about [job submission](https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:Submitting_Jobs), [job monitoring](https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:Monitoring_Jobs), and [compute nodes](https://www.ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions) on Hoffman2.
@@ -15,25 +17,6 @@ If you are worried about your project, come to my office hours.  They are after 
 
 ---
 
-#### Warm up exercise:
-
-__Make a directory__ for todays class. cd into that directory
-
-1. Find a partner to work with.
-
-2. Write a script called cut_stuff_<your_initials>\_<your_partners_initials>.sh
-
-3. You script needs to include the following:
-  * comments on usage
-  * It must take an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
-  `$ sh cut_stuff_EC_DC.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.sh`
-
-  * It must cut the text file at the first argument keep the text in the column indicated by the second argument and print that column to a new folder.
-  __Hint__ see line 171-177 of Week 2 Wednesday.
-
-  4. Copy or move the script to `~/classdata/In_class/Week3/my_first_scripts_for_PCEEB`
-
-----
 #### What is a loop?  
 
 We played around with a 'for' loop last time, but what is the purpose of loops?  They make our lives easier buy doing repetitive tasks.  They can 'do' an number of things for a list of items, a range of numbers, while some condition is true, or if something exists.  I personally love loops, and I hope that you will too.
@@ -381,9 +364,129 @@ else
 fi     # $String is Not null.
 
 ```
+#### In class exercise:
+
+__Make a directory__ for todays class. cd into that directory
+
+1. Write a script called cut_stuff_<your_initials>\_<your_partners_initials>.sh
+
+2. You script needs to include the following:
+  * comments on usage
+  * It must take an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
+  `$ sh cut_stuff_EC_DC.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.sh`
+
+  * It must cut the text file at the first argument keep the text in the column indicated by the second argument and print that column to a new folder.
+  __Hint__ see line 171-177 of Week 2 Wednesday.
+
+3. Copy or move the script to `~/classdata/In_class/Week3/my_first_scripts_for_PCEEB`
 
 
+4. Take the for loop that you used in class to print the colors of the rainbow (as is) and make a script that runs that for loop, then takes that output file and generates another output file that has the colors printed in reverse order.
 
-# Wednesday Challenge:
+5. Write and comment a script that takes the for loop that you used in class to print the colors of the rainbow (as is) and if the color is equal to blue print sky, for every other color print fire.  Save this script as color.sh . The output should be as follows:
+```
+red
+fire
+orange
+fire
+yellow
+fire
+green
+fire
+blue
+sky
+indigo
+fire
+violet
+fire
+```
 
-Take the for loop that you used in class to print the colors of the rainbow (as is) and make a script that runs that for loop, then takes that output file and generates another output file that has the colors printed in reverse order.
+6. Write an script that contains an until loop that prints a counter from 5 until the counter is greater than 8. Call this script until_8.sh
+
+7. Write an script that contains an while loop that prints a counter while the counter is not greater than
+
+8. Start the counter at 5.  Call this script while_8.sh
+
+9. Write an script that contains an range loop that prints a range of numbers from 5 to 8. Call this script range_8.sh
+
+
+----
+
+If you ls the the directory ~/classdata/Homework_data/data-shell/molecules directory, you get the following output:
+
+```
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+```
+
+1. __What__ is the output of the following code?
+```
+$ for datafile in *.pdb
+> do
+>    ls *.pdb
+> done
+```
+
+
+2. __What__ is the output of the following code?
+```
+$ for datafile in *.pdb
+> do
+>	ls $datafile
+> done
+```
+
+
+3. __Why__ do these two loops give different outputs?
+
+
+4. __What__ is output of running the following loop in the data-shell/molecules directory?
+```
+$ for filename in c*
+> do
+>    ls $filename
+> done
+```
+__a.__ No files are listed.
+__b.__  All files are listed.
+__c.__  Only cubane.pdb, octane.pdb and pentane.pdb are listed.
+__d.__  Only cubane.pdb is listed.
+
+5. __How__ would the output differ from using this command instead?
+```
+$ for filename in *c*
+> do
+>    ls $filename
+> done
+```
+__a.__ The same files would be listed.
+__b.__ All the files are listed this time.
+__c.__ No files are listed this time.
+__d.__ The files cubane.pdb and octane.pdb will be listed.
+__e.__ Only the file octane.pdb will be listed.
+
+6. In the data-shell/molecules directory, __what__ is the effect of this loop?
+```
+for alkanes in *.pdb
+do
+    echo $alkanes
+    cat $alkanes > alkanes.pdb
+done
+```
+__a.__ Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb, and the text from propane.pdb will be saved to a file called alkanes.pdb.
+__b.__ Prints cubane.pdb, ethane.pdb, and methane.pdb, and the text from all three files would be concatenated and saved to a file called alkanes.pdb.
+__c.__ Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb, and the text from propane.pdb will be saved to a file called alkanes.pdb.
+__d.__ None of the above.
+
+7. __What__ would be the output of the following loop?
+
+```
+for datafile in *.pdb
+> do
+> cat $datafile >> all.pdb
+> done
+```
+
+__a.__ All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb would be concatenated and saved to a file called all.pdb.
+__b.__ The text from ethane.pdb will be saved to a file called all.pdb.
+__c.__ All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb would be concatenated and saved to a file called all.pdb.
+__d.__ All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb would be printed to the screen and saved to a file called all.pdb.
