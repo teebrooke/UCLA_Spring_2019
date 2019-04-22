@@ -364,7 +364,8 @@ else
 fi     # $String is Not null.
 
 ```
-#### In class exercises:
+---
+## In class exercises:
 
 __Make a directory__ in your home directory for todays class. cd into that directory.
 
@@ -372,9 +373,9 @@ __At the end of class__ copy all of your scripts and text files into `~/classdat
 
 __All Scripts require comments__ on usage and explanations for  what your script does.
 
-1. Write a script called <your initials>cut_stuff.sh that
+1. Write a script called <your initials>\_cut_stuff.sh that
   * takes an input file, a delimiter, the column to be printed, and an output file as arguments. For example:
-  `$ sh cut_stuff_EC.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.sh`
+  `$ sh EC_cut_stuff.sh ~/classdata/Homework_data/data-shell/data/amino-acids.txt : 1 cut_stuff_EC_DC_out.txt`
 
   * It must cut the text file at the first argument keep the text in the column indicated by the second argument and print that column to a new folder.
   __Hint__ see line 171-177 of Week 2 Wednesday.
@@ -447,8 +448,11 @@ $ for filename in c*
 > done
 ```
 __a.__ No files are listed.
+
 __b.__  All files are listed.
+
 __c.__  Only cubane.pdb, octane.pdb and pentane.pdb are listed.
+
 __d.__  Only cubane.pdb is listed.
 
 5. __How__ would the output differ from using this command instead?
@@ -458,10 +462,15 @@ $ for filename in *c*
 >    ls $filename
 > done
 ```
+
 __a.__ The same files would be listed.
+
 __b.__ All the files are listed this time.
+
 __c.__ No files are listed this time.
+
 __d.__ The files cubane.pdb and octane.pdb will be listed.
+
 __e.__ Only the file octane.pdb will be listed.
 
 6. In the data-shell/molecules directory, __what__ is the effect of this loop?
@@ -473,8 +482,11 @@ do
 done
 ```
 __a.__ Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb, and the text from propane.pdb will be saved to a file called alkanes.pdb.
+
 __b.__ Prints cubane.pdb, ethane.pdb, and methane.pdb, and the text from all three files would be concatenated and saved to a file called alkanes.pdb.
+
 __c.__ Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb, and the text from propane.pdb will be saved to a file called alkanes.pdb.
+
 __d.__ None of the above.
 
 7. __What__ would be the output of the following loop?
@@ -486,7 +498,11 @@ for datafile in *.pdb
 > done
 ```
 
+
 __a.__ All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb would be concatenated and saved to a file called all.pdb.
+
 __b.__ The text from ethane.pdb will be saved to a file called all.pdb.
+
 __c.__ All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb would be concatenated and saved to a file called all.pdb.
+
 __d.__ All of the text from cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, pentane.pdb and propane.pdb would be printed to the screen and saved to a file called all.pdb.
