@@ -365,7 +365,7 @@ fi     # $String is Not null.
 
 ```
 ---
-## In class exercises:
+# In class exercises:
 
 __Make a directory__ in your home directory for todays class. cd into that directory.
 
@@ -419,7 +419,7 @@ If you ls the the directory ~/classdata/Homework_data/data-shell/molecules direc
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 ```
 
-1. __What__ is the output of the following code?
+#### 1. __What__ is the output of the following code?
 ```
 $ for datafile in *.pdb
 > do
@@ -428,7 +428,7 @@ $ for datafile in *.pdb
 ```
 
 
-2. __What__ is the output of the following code?
+#### 2. __What__ is the output of the following code?
 ```
 $ for datafile in *.pdb
 > do
@@ -437,10 +437,9 @@ $ for datafile in *.pdb
 ```
 
 
-3. __Why__ do these two loops give different outputs?
+#### 3. __Why__ do these two loops give different outputs?
 
-
-4. __What__ is output of running the following loop in the data-shell/molecules directory?
+#### 4. __What__ is output of running the following loop in the data-shell/molecules directory?
 ```
 $ for filename in c*
 > do
@@ -455,7 +454,7 @@ __c.__  Only cubane.pdb, octane.pdb and pentane.pdb are listed.
 
 __d.__  Only cubane.pdb is listed.
 
-5. __How__ would the output differ from using this command instead?
+#### 5. __How__ would the output differ from using this command instead?
 ```
 $ for filename in *c*
 > do
@@ -473,7 +472,8 @@ __d.__ The files cubane.pdb and octane.pdb will be listed.
 
 __e.__ Only the file octane.pdb will be listed.
 
-6. In the data-shell/molecules directory, __what__ is the effect of this loop?
+#### 6. In the data-shell/molecules directory, what is the effect of this loop?
+
 ```
 for alkanes in *.pdb
 do
@@ -489,7 +489,7 @@ __c.__ Prints cubane.pdb, ethane.pdb, methane.pdb, octane.pdb, and pentane.pdb, 
 
 __d.__ None of the above.
 
-7. __What__ would be the output of the following loop?
+#### 7. __What__ would be the output of the following loop?
 
 ```
 for datafile in *.pdb
