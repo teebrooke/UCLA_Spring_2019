@@ -1,4 +1,4 @@
-exercises# What You Should Know For Lecture: Week 4
+# What You Should Know For Lecture: Week 4
 
 ### Monday:
 
