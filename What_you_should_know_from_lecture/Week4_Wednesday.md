@@ -200,19 +200,29 @@ __4.__ Bash and python handle variable storage differently.  What is the differe
 __5.__ What is the difference between int and float variables. If you do not indicate float variables what is not returned during division?
 
 __6.__ What is the output of:
+
 print 3 * (1 + 3)
+
 print '23' + '8'
+
 print 23 + 8
+
 print '23' + 8
+
 print 8 < 7
+
 print 8 == 7
+
 print 8 <= 7
+
 print 8 >= 7
+
 print 8 > 7
 
 __7.__ What commands would give you the following outputs:
 
 pickled cabbage 88
+
 'pickled cabbage 88'
 
 __8.__ How does concatenating variables in python differ from in bash?
