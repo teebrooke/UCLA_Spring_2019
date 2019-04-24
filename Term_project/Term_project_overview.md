@@ -40,14 +40,23 @@ To generate these programs and to build these GitHub repositories, students will
 
 ---
 ### Time line
-__Discussion week 3__ Project basics
-__Discussion Week 4__	Project map / Flow chart
-__Discussion Week 5__	Project GitHub Readme
+
+__Discussion Week 4__	Possible Project Presentations
+
+__Discussion Week 5__	Project GitHub Readme - Introduction and Flowchart / schematic
+
 __Discussion Week 6__	Project Scripts
+
 __Discussion Week 7__	Project Scripts
+
 __Discussion Week 8__	Project Vignette
+
 __Discussion Week 9__	Project Vignette
+
 __In class M June 3__	Project Presentations I
+
 __In class June 5__	Project Presentations II
+
 __Discussion Week 10__	Evaluate Your Peer's Projects
+
 __Friday, June 14th  Midnight__ Push final changes to your repository
