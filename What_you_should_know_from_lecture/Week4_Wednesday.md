@@ -188,8 +188,11 @@ __1.__ List three websites where you can find help scripting in python.
 __2.__ What is the command to load python on Hoffman2?  What command runs python on Hoffman2? How do you exit python?
 
 __3.__ Write a command to print your first middle and last name on different lines. For example:
+
 Emily
+
 Elizabeth
+
 Curd
 
 __4.__ Bash and python handle variable storage differently.  What is the difference?  __hint:__ I am specifically looking for answers related to white spaces.
