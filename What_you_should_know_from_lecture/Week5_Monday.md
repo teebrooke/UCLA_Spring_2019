@@ -94,7 +94,7 @@ my canis familiaris weighs 121.00000000000001 kilograms
 ```
 ___
 
-#### Python collections: List, Tuple, Set, Dictionary
+### Python collections: List, Tuple, Set, Dictionary
 
 These are different kinds of data types in python.  Today we will learn about Lists and Tuples.
 
@@ -281,7 +281,7 @@ count()	Returns the number of times a specified value occurs in a tuple
 index()	Searches the tuple for a specified value and returns the position of where it was found
 ```
 ___
-#### For loops in Python
+### For loops in Python
 
 Similar to Bash, we can run for loops in python.
 
@@ -318,7 +318,7 @@ IndentationError: expected an indented block
 ___
 
 
-#### If statements in python
+### If statements in python
 
 Much like bash we can also use conditionals in python to check if something exists.
 
@@ -379,17 +379,17 @@ ok
 
 ___
 
-In class exercises
+## In class exercises
 
 __Please__ add your responses to a text file called <your_initials>\_week5_inclass.txt.  When you finish, please copy the text file to `/u/home/class/c177/c177-i0/classdata/In_class/Week5/Monday`
 
-1. Describe your Term project in 1 sentence.  Who is in your group?  What is their email address.
+__1.__ Describe your Term project in 1 sentence.  Who is in your group?  What is their email address.
 
-2. Store 2 strings of characters and one integer in  3 different variables.  Using print(), generate a sentence with at least 2 additional bits of 'text' and one equation that uses a float.  For this equation use round() the float output to 3 decimal places.  This must be different from the example given in the text above.
+__2.__ Store 2 strings of characters and one integer in  3 different variables.  Using print(), generate a sentence with at least 2 additional bits of 'text' and one equation that uses a float.  For this equation use round() the float output to 3 decimal places.  This must be different from the example given in the text above.
 
   Provide the print() command and the output.
 
-3. What value associated with the first item in a list (e.g. is it a 1 or a 0)?  In the fruit list
+__3.__ What value associated with the first item in a list (e.g. is it a 1 or a 0)?  In the fruit list
 
 `fruit = ['red bell peppers', 'pumpkin', 'grapes', 'apples', 'bananas']`
 
@@ -399,11 +399,11 @@ __Please__ add your responses to a text file called <your_initials>\_week5_incla
 
   What happens when you sort this list?
 
-4. You can count the length of lists and tuples using the same command. You can also return the item in a specific position of a list or a tuple with the same command.  Make a list and a tuple that contain 5 items each.  Print the length of the tuple and the list, and also return the fourth item for each.  Give the commands and the output.
+__4.__ You can count the length of lists and tuples using the same command. You can also return the item in a specific position of a list or a tuple with the same command.  Make a list and a tuple that contain 5 items each.  Print the length of the tuple and the list, and also return the fourth item for each.  Give the commands and the output.
 
-5. How do for loops differ between bash and python? How do if statements differ between bash and python? (Hint consider indentation, but this is not the only difference)
+__5.__ How do for loops differ between bash and python? How do if statements differ between bash and python? (Hint consider indentation, but this is not the only difference)
 
-6. Make a list of 5 items that you would take to the beach. Write a for loop that prints each item in the list, a tab, and the text 'check'. The out put should look something like:
+__6.__ Make a list of 5 items that you would take to the beach. Write a for loop that prints each item in the list, a tab, and the text 'check'. The out put should look something like:
 
 ```
 sunglasses  check
@@ -415,6 +415,6 @@ towel       check
 
   Provide the for loop and the output.
 
-7. Make a tuple of 6 letters between a and z. Write a for loop with and if statement that prints the value of the item if it is not a, b, m, or k.
+__7.__ Make a tuple of 6 letters between a and z. Write a for loop with and if statement that prints the value of the item if it is not a, b, m, or k.
 
   Provide the for loop / if statement and the output.
