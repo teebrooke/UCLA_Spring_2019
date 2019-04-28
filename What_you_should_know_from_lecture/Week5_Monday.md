@@ -1,8 +1,8 @@
 # What You Should Know For Lecture: Week 5
 
-### Monday:
+## Monday:
 
-#### Announcements-
+### Announcements-
 
 __Homework__
 
@@ -387,17 +387,17 @@ __Please__ add your responses to a text file called <your_initials>\_week5_incla
 
 2. Store 2 strings of characters and one integer in  3 different variables.  Using print(), generate a sentence with at least 2 additional bits of 'text' and one equation that uses a float.  For this equation use round() the float output to 3 decimal places.  This must be different from the example given in the text above.
 
-Provide the print() command and the output.
+  Provide the print() command and the output.
 
 3. What value associated with the first item in a list (e.g. is it a 1 or a 0)?  In the fruit list
 
 `fruit = ['red bell peppers', 'pumpkin', 'grapes', 'apples', 'bananas']`
 
-, which item is number 3?  What command would you use to verify this?
+  which item is number 3?  What command would you use to verify this?
 
-How would you print this list in reverse? Give the command and the output.
+  How would you print this list in reverse? Give the command and the output.
 
-What happens when you sort this list?
+  What happens when you sort this list?
 
 4. You can count the length of lists and tuples using the same command. You can also return the item in a specific position of a list or a tuple with the same command.  Make a list and a tuple that contain 5 items each.  Print the length of the tuple and the list, and also return the fourth item for each.  Give the commands and the output.
 
@@ -413,8 +413,8 @@ book        check
 towel       check
 ```
 
-Provide the for loop and the output.
+  Provide the for loop and the output.
 
 7. Make a tuple of 6 letters between a and z. Write a for loop with and if statement that prints the value of the item if it is not a, b, m, or k.
 
-Provide the for loop / if statement and the output.
+  Provide the for loop / if statement and the output.
