@@ -315,7 +315,7 @@ Python requires an indent in your for loop.  If it is missing you will get an er
         ^
 IndentationError: expected an indented block
 ```
-
+___
 
 
 #### If statements in python
@@ -376,16 +376,6 @@ ok
 ...
 >>>
 ```
-
-
-
-___
-
-#### [Libraries](https://docs.python.org/3/library/intro.html) in python
-
-__Libraries__ contain a lot of useful stuff. For example, the core library contains number and list.  Libraries also contain built in functions like print(), or modules that provide interfaces to other hardware or software.
-
-Today we will use the library `numpy`
 
 ___
 
