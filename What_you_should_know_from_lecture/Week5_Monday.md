@@ -53,16 +53,16 @@ Let's store the following variables:
 >>> weight_lbs = 55
 ```
 
-In addition to using `print ''` as we did last time, we can also use `print()` and separate variables with a `,``
+Let's play with `print` as we did last time, we can also use `print()` and separate variables with a `+``
 
 ```
->>> print(a,b,weight_lbs)
+>>> print(a+b+weight_lbs)
 canis familiaris 55
 ```
 We can also do math and add `'text'`, but we need to separate variables, equations and text with a `,`.
 
 ```
->> print('my', a, b, 'weighs', 2.2 * weight_lbs, 'kilograms')
+>> print('my'+ a+ b+ 'weighs'+ 2.2 * weight_lbs+ 'kilograms')
 my canis familiaris weighs 121.00000000000001 kilograms
 ```
 
@@ -89,7 +89,7 @@ To a specified number of decimal places:
 Here is an example for the print command above.  We will round the number of kilograms to 1 decimal place:
 
 ```
->> print('my', a, b, 'weighs', round(2.2 * weight_lbs, 1), 'kilograms')
+>> print('my'+ a + b+ 'weighs'+ round(2.2 * weight_lbs, 1)+ 'kilograms')
 my canis familiaris weighs 121.00000000000001 kilograms
 ```
 ___
