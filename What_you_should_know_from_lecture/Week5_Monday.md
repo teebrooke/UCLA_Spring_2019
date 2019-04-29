@@ -59,10 +59,10 @@ Let's play with `print` as we did last time, we can also use `print()` and separ
 >>> print(a+b+weight_lbs)
 canis familiaris 55
 ```
-We can also do math and add `'text'`, but we need to separate variables, equations and text with a `+`.
+We can also do math and add `'text'`, but we need to separate variables, equations and text with a `,` and not use `()`.
 
 ```
->> print('my'+ a+ b+ 'weighs'+ 2.2 * weight_lbs+ 'kilograms')
+>> print 'my', a, b, 'weighs', 2.2 * weight_lbs , 'kilograms'
 my canis familiaris weighs 121.00000000000001 kilograms
 ```
 
