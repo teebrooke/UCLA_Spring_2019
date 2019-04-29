@@ -49,7 +49,7 @@ __Discussion Week 6__	Project Scripts
 
 __Discussion Week 7__	Project Scripts
 
-__Discussion Week 8__	Project Vignette
+__Discussion Week 8__	Project Scripts
 
 __Discussion Week 9__	Project Vignette
 
