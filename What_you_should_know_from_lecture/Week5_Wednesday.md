@@ -552,31 +552,39 @@ print(len(petdict))
 
 
 petdict["fish"] = "bubbles"
+
 print(petdict)
 
 
 petdict.pop("dog")
+
 print(petdict)
 
 petdict.popitem()
+
 print(petdict)
 
 
 del petdict["dog"]
+
 print(petdict)
 
 del petdict
+
 print(petdict)
 
 
 petdict.clear()
+
 print(petdict)
 
 mydict = petdict.copy()
+
 print(mydict)
 
 
 mydict = dict(petdict)
+
 print(mydict)
 
 petdict = dict(fish="bubbles", dog="fluffy", cat="scratches")
