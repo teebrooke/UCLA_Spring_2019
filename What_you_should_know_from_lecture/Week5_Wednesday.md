@@ -580,8 +580,8 @@ mydict = dict(petdict)
 print(mydict)
 
 petdict = dict(fish="bubbles", dog="fluffy", cat="scratches")
-# note that keywords are not string literals
-# note the use of equals rather than colon for the assignment
+\# note that keywords are not string literal
+\# note the use of equals rather than colon for the assignment
 print(petdict)
 
 __6__. Look at the inflammation-01.csv data in bash (__hint__ use head, cat, less, etc).  What did the numpy array do to the data? For example, comment on the presence of floats and commas.
