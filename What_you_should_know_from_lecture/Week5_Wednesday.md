@@ -607,7 +607,7 @@ __2.__ Write a python script called numpy_csv2.py that imports the library numpy
   b. Slices the first 15 rows and all of the columns and stores them in a variable called slice1
   c. Print text that indicates that you slices the first 15 rows of the data set and then print the dataset.
 
-__3.__ Write a python script that makes a new text file called new_text.txt and prints a sentence to it use open(), .write(), and .close().
+__3.__ Write a python script called write_new_text.py that makes a new text file called new_text.txt and prints a sentence to the file before closing the file.  __Hint:__ use open(), .write(), and .close().
 
 
 __4.__ Write a shell script called Week_5_Wed_master.sh that runs all of the scripts contained in ''<your_initials>\_Week5_Wednesday'. _Hint1_ You will need to load python. _Hint2:_ You will need to write a for loop.  It will be similar to the following, but instead of printing the file name it will run python on the file name.
