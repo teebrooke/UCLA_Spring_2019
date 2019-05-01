@@ -207,7 +207,7 @@ true
 {'turtle': 'Spike', 'dog': 'Fluffy', 'cat': 'Muffin'}
 ```
 
-You can use a fore loop to print each key name in the dictionary.
+You can use a for loop to print each key name in the dictionary.
 
 Add the following to Dictionary.py:
 
@@ -233,7 +233,7 @@ dog
 cat
 ```
 
-You can use a fore loop to print each value in the dictionary.
+You can use a for loop to print each value in the dictionary.
 
 Add the following to Dictionary.py:
 
