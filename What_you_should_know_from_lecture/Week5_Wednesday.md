@@ -65,7 +65,7 @@ module load python
 python Week_5_Wed.py
 ```
 
-You can convince yourself that python is being loaded in the program by unloading it on Hoffman2.
+You can convince yourself that python is being loaded in the program by unloading the python module.
 
 ```
 $ module unload python
