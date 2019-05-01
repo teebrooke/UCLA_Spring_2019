@@ -312,7 +312,7 @@ import numpy
 
 If you are importing a different library you would use that library name rather then numpy.
 
-Let's start a new python script called libs_and_data.py.  In this script add a shebang and import numby.
+Let's start a new python script called libs_and_data.py.  In this script add a shebang and import numpy.
 
 ```
 #!/usr/bin/env python2
