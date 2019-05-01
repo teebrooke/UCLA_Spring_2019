@@ -497,7 +497,7 @@ We can add an additional field to this command called fmt. It will specify how w
 numpy.savetxt("subset1_cleaner.txt", subset1, fmt="%2.3f", delimiter=",")
 ```
 
-We can also just open files and write text.  __Note__ that this will not work for exporting numpy arrays.
+We can also just open files and write text.  __Note__ that this will not work for writing numpy arrays to files.
 
 Add this to libs_and_data.py:
 
