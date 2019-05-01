@@ -397,7 +397,7 @@ Add this to libs_and_data.py:
 """
 print the first 4 rows and first ten columns
 0:4 means “Start at index 0 and go up to, but not including, index 4.”
-0:10 means “Start at index 0 and go up to, but not including, index 10.”
+0:10 means “Start at index 0 and go up to, but not including, index 10.
 """
 
 print(data[0:4, 0:10])
@@ -421,7 +421,7 @@ Add this to libs_and_data.py:
 """
 print the five rows starting at row 6 rows and first ten columns
 5:10 means “Start at index 5 and go up to, but not including, index 10.”
-0:10 means “Start at index 0 and go up to, but not including, index 10.”
+0:10 means “Start at index 0 and go up to, but not including, index 10.
 """
 
 print(data[5:10, 0:10])
@@ -449,7 +449,7 @@ The new output is:
  """
  print the three rows starting at row 1 rows and all of the columns from 36 to the end
  :3 means “Start at index 0 and go up to, but not including, index 3.”
- 36: means “Start at index 36 and go to the last index.”
+ 36: means “Start at index 36 and go to the last index.
  """
 
  print(data[:3, 36:])
