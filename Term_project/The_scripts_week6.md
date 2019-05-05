@@ -1,4 +1,4 @@
-# Discussion Week 5: Starting to write scripts
+# Discussion Week 6: Starting to write scripts
 
 Hopefully by now you will have figured out why you are doing your project and the general strategy for your program.  Now you need to considers the scripts that you need to make your program work.
 
