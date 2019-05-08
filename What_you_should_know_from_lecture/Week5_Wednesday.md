@@ -1,4 +1,4 @@
-variable# What You Should Know For Lecture: Week 5
+# What You Should Know For Lecture: Week 5
 
 ## Wednesday:
 
@@ -503,7 +503,7 @@ Add this to libs_and_data.py:
 
 ```
 """
-Make a new file called f using open("file name", "w+").  The "w" is for read. The "+" indicates that a new file needs to be written if it does not already exist.   
+Make a new file called f using open("file name", "w+").  The "w" is for write. The "+" indicates that a new file needs to be written if it does not already exist.   
 
 Note that we can open a file using open("file name", "r") the "r" is for read, or add to a new file using open("file name", "a") the "a" is for append.
 
