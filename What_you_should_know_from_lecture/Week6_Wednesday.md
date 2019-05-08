@@ -11,7 +11,7 @@ If you need help, or just want to share your progress, please come to office hou
 ---
 ### Today in class
 
-In the /u/home/class/c177/c177-i0/classdata/In_class/Week6/Wednesday/script_file directory is a python script called run_namecount.py, a test file called tax_test.txt and an output directory called ./namecounts.
+In the /u/home/class/c177/c177-i0/classdata/In_class/Week6/Wednesday/script_file directory is a python script called run_namecount.py , a test file called tax_test.txt and an output directory called ./namecounts
 
 This script takes a file with this format:
 
@@ -45,7 +45,7 @@ and counts the occurrences of each taxonomic rank.  The output file looks someth
 
 # In_class assignment
 
-Your job is to figure out how the code works. The person that wrote the code (Emily...) did a really poor job of commenting the script. There are a number of `#` in the code file where there should be comments describing a step in the program.  For today's assignment, you need to fill in the comment that describes that chunk of code.
+Your job is to figure out how the code works. The person that wrote the code (Emily...) did a really poor job of commenting the script. There are a number of `#` in the code file where there should be comments describing a step in the program.  For today's assignment, you need to fill in the comments that describe chunks of code.
 
 Use any means necessary to figure out what is going on (google, talk to a friend, ask me or Daniel). One way to see what is going on is to comment out parts of code and see what does or does not happen. Ask me about this during class if you are confused.
 
