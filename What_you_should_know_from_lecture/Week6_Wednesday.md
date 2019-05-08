@@ -6,7 +6,7 @@
 
 Any exercises not completed in class will be due Monday at 11 pm.   
 
-Please come to office hours or chat with us during class about your projects.
+If you need help, or just want to share your progress, please come to office hours or chat with us during class about your projects.
 
 ---
 ### Today in class
