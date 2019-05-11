@@ -1,4 +1,4 @@
-# Discussion Week 6: Continuing to write scripts
+# Discussion Week 7: Continuing to write scripts
 
 So by now you have the core function of your project figured out.  You may also have some pseudocode or code to string together the aspects of your project.
 
