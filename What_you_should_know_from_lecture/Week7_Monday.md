@@ -15,6 +15,7 @@ We have added a folder of test script bits in the Term_project folder.  Check it
 ---
 
 __Fantastic R resources:__
+
 _This one is great for shiny project people_
 
 https://bookdown.org/yihui/rmarkdown/notebook.html
