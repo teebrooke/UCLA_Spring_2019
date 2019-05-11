@@ -30,7 +30,9 @@ https://r4ds.had.co.nz/
 Today in class you are going go through several R tutorials to learn about using [R notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html) in R studio, the basics of the [tidyverse](https://r4ds.had.co.nz/), and how to play with data in the tidyverse.
 
 http://www.storybench.org/getting-started-r-rstudio-notebooks/
+
 http://www.storybench.org/getting-started-with-tidyverse-in-r/
+
 http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/
 
 ---
