@@ -46,7 +46,6 @@ murders_final_sort %
 murders_final_sort
 ```
 
-
 Use this instead:
 
 ```
@@ -54,6 +53,45 @@ murders_final_sort <- murders_final %>%
   arrange(
     change)
 murders_final_sort
+```
+
+___
+
+For the code:
+
+```
+midpts <- barplot(murders_final_sort$change,
+                  cex.axis = 1.0, cex.names = 0.6,
+                  ylim = c(-20, 120), main = "Change in murders from 2014 to 2015"
+)
+
+text(murders_final_sort$city,
+     x = midpts,
+     offset = -0.1,
+     y = -20,
+     cex = 0.5,
+     srt = 60,
+     xpd = TRUE,
+     pos = 2
+)
+```
+
+Use this instead:
+```
+midpts <- barplot(murders_final_sort$change,
+                  cex.axis = 1.0, cex.names = 0.6,
+                  ylim = c(-20, 120), main = "Change in murders from 2014 to 2015"
+)
+
+text(murders_final_sort$city_state,
+     x = midpts,
+     offset = -0.1,
+     y = -20,
+     cex = 0.5,
+     srt = 60,
+     xpd = TRUE,
+     pos = 2
+)
 
 ```
 
