@@ -35,6 +35,28 @@ http://www.storybench.org/getting-started-with-tidyverse-in-r/
 
 http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/
 
+# There is a problem with the fivethirtyeight tutorials
+
+For the code:
+
+```
+murders_final_sort %
+  arrange(
+    change)
+murders_final_sort
+```
+
+
+Use this instead:
+
+```
+murders_final_sort <- murders_final %>%
+  arrange(
+    change)
+murders_final_sort
+
+```
+
 ---
 ### In class exercises
 
