@@ -185,7 +185,17 @@ __Please__ add your responses to a text file called <your_initials>\_week4_incla
 
 __1.__ List three websites where you can find help scripting in python.
 
+https://www.tutorialspoint.com/python/python_basic_syntax.htm
+https://www.pythonforbeginners.com/commands/
+https://www.python.org/about/gettingstarted/
+
+
+
 __2.__ What is the command to load python on Hoffman2?  What command runs python on Hoffman2? How do you exit python?
+
+to load python in Hoffman2 you must used module load python
+typing python will run it
+to exit pyhton you use quit()
 
 __3.__ Write a command to print your first middle and last name on different lines. For example:
 
@@ -195,37 +205,69 @@ Elizabeth
 
 Curd
 
+print("taylor\nalderete")
+
 __4.__ Bash and python handle variable storage differently.  What is the difference?  __hint:__ I am specifically looking for answers related to white spaces.
 
+bash doesnt like white spaces whereas python can handle them, especially when using loops.
+
 __5.__ What is the difference between int and float variables. If you do not indicate float variables what is not returned during division?
+
+float variable is a decimal
+int variable means any intiger 
+if you do not indicate float variables a remainder will not show and take the number as an intiger
 
 __6.__ What is the output of:
 
 print 3 * (1 + 3)
+12
 
 print '23' + '8'
+238
 
 print 23 + 8
+31
 
-print '23' + 8
+print '23' + 
+
+error
 
 print 8 < 7
+false
 
 print 8 == 7
+false
 
 print 8 <= 7
+false
 
 print 8 >= 7
+true
 
 print 8 > 7
+true
 
 __7.__ What commands would give you the following outputs:
 
 pickled cabbage 88
 
+command print 'pickled cabbage 88'
+
 'pickled cabbage 88'
+
+command  print "'pickled cabbage 88'"
 
 __8.__ How does concatenating variables in python differ from in bash?
 For example, how would you get the variables storing 'sun' and  'shine' to print 'sunshine' in bash vs python?
 
-__9.__ What does the blue text in a markdown document indicate?  
+In python to concatenate two strings you can use the + sign to concatenate strings like this 'taylor' + 'alderete'
+For bash you just write the words right after each other with var. example 
+VAR1="Hello,"
+VAR2=" World"
+VAR3="$VAR1$VAR2"
+echo "$VAR3"
+
+
+__9.__ What does the blue text in a markdown document indicate? 
+
+The blue text indicates important titles. for example in our CV all of our headings were in blue.
